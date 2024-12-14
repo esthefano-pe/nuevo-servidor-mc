@@ -200,3 +200,100 @@ Reason: hola
 [23:15:06] [User Authenticator #2/INFO]: UUID of player tulagrandea is 3ec36fb6-9738-3522-8762-b4d784603c31
 [23:15:06] [Server thread/INFO]: tulagrandea joined the game
 [23:15:06] [Server thread/INFO]: tulagrandea[/127.201.110.57:46975] logged in with entity id 8948 at ([world]-1052.699999988079, 85.0, 62.7326801944777)
+[23:19:48] [Async Chat Thread - #13/INFO]: [Not Secure] <_JoSeP_05> sebas puto
+[23:19:59] [Async Chat Thread - #14/INFO]: [Not Secure] <tulagrandea> ya lo borre
+[23:21:38] [Server thread/INFO]: G4MM4___ has made the advancement [Monster Hunter]
+[23:21:45] [Async Chat Thread - #15/INFO]: [Not Secure] <tulagrandea> y el agua
+[23:21:53] [Async Chat Thread - #15/INFO]: [Not Secure] <tulagrandea> ayuda me muero
+[23:23:20] [Server thread/WARN]: Boat (vehicle of G4MM4___) moved wrongly! 4.0382054222330614
+[23:23:20] [Server thread/WARN]: Boat (vehicle of G4MM4___) moved wrongly! 4.0382054222330614
+[23:23:20] [Server thread/WARN]: Boat (vehicle of G4MM4___) moved wrongly! 4.0382054222330614
+[23:23:20] [Server thread/WARN]: Boat (vehicle of G4MM4___) moved wrongly! 4.0382054222330614
+[23:23:57] [Async Chat Thread - #17/INFO]: [Not Secure] <tulagrandea> y agua
+[23:23:58] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-196 (MC: 1.20.1) ---
+[23:23:58] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[23:23:58] [Paper Watchdog Thread/ERROR]: ------------------------------
+[23:23:58] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[23:23:58] [Paper Watchdog Thread/ERROR]: Ticking entity: minecraft:player, entity class: net.minecraft.server.level.EntityPlayer
+[23:23:58] [Paper Watchdog Thread/ERROR]: Entity status: removed: false, valid: true, alive: true, is passenger: false
+[23:23:58] [Paper Watchdog Thread/ERROR]: Entity UUID: 84ef5069-ace0-3a20-a670-51a3cb94662c
+[23:23:58] [Paper Watchdog Thread/ERROR]: Position: world: 'world' at location (989.6636818991741, 45.0, 609.9901829193823)
+[23:23:58] [Paper Watchdog Thread/ERROR]: Velocity: (0.002814910549983063, -0.0, -0.03695333082862549) (in blocks per tick)
+[23:23:58] [Paper Watchdog Thread/ERROR]: Entity AABB: AABB[989.3636818872532, 45.0, 609.6901829074613] -> [989.963681911095, 45.60000002384186, 610.2901829313032]
+[23:23:58] [Paper Watchdog Thread/ERROR]: Total packets processed on the main thread for all players: 103608
+[23:23:58] [Paper Watchdog Thread/ERROR]: ------------------------------
+[23:23:58] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[23:23:58] [Paper Watchdog Thread/ERROR]: 	PID: 27 | Suspended: false | Native: false | State: RUNNABLE
+[23:23:58] [Paper Watchdog Thread/ERROR]: 	Stack:
+[23:23:58] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.13/java.util.HashMap.hash(HashMap.java:338)
+[23:23:58] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.13/java.util.HashMap.getNode(HashMap.java:568)
+[23:23:58] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.13/java.util.HashMap.containsKey(HashMap.java:594)
+[23:23:58] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.13/java.util.HashSet.contains(HashSet.java:205)
+[23:23:58] [Paper Watchdog Thread/ERROR]: 		com.dfsek.terra.addons.biome.pipeline.mutator.ReplaceMutator.mutate(ReplaceMutator.java:33)
+[23:23:58] [Paper Watchdog Thread/ERROR]: 		com.dfsek.terra.addons.biome.pipeline.BiomeHolderImpl.mutate(BiomeHolderImpl.java:68)
+[23:23:58] [Paper Watchdog Thread/ERROR]: 		com.dfsek.terra.addons.biome.pipeline.stages.MutatorStage.apply(MutatorStage.java:25)
+[23:23:58] [Paper Watchdog Thread/ERROR]: 		com.dfsek.terra.addons.biome.pipeline.BiomePipeline.getBiomes(BiomePipeline.java:44)
+[23:23:58] [Paper Watchdog Thread/ERROR]: 		com.dfsek.terra.addons.biome.pipeline.BiomePipelineProvider.lambda$new$0(BiomePipelineProvider.java:45)
+[23:23:58] [Paper Watchdog Thread/ERROR]: 		com.dfsek.terra.addons.biome.pipeline.BiomePipelineProvider$$Lambda$5702/0x000079fd34e27000.load(Unknown Source)
+[23:23:58] [Paper Watchdog Thread/ERROR]: 		Terra-bukkit-6.3.1-BETA+73baaec6c-shaded (1).jar//com.github.benmanes.caffeine.cache.LocalLoadingCache.lambda$newMappingFunction$3(LocalLoadingCache.java:197)
+[23:23:58] [Paper Watchdog Thread/ERROR]: 		Terra-bukkit-6.3.1-BETA+73baaec6c-shaded (1).jar//com.github.benmanes.caffeine.cache.LocalLoadingCache$$Lambda$5704/0x000079fd34e2fd18.apply(Unknown Source)
+[23:23:58] [Paper Watchdog Thread/ERROR]: 		Terra-bukkit-6.3.1-BETA+73baaec6c-shaded (1).jar//com.github.benmanes.caffeine.cache.BoundedLocalCache.lambda$doComputeIfAbsent$13(BoundedLocalCache.java:2550)
+[23:23:58] [Paper Watchdog Thread/ERROR]: 		Terra-bukkit-6.3.1-BETA+73baaec6c-shaded (1).jar//com.github.benmanes.caffeine.cache.BoundedLocalCache$$Lambda$5986/0x000079fd34ece1f8.apply(Unknown Source)
+[23:23:58] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.13/java.util.concurrent.ConcurrentHashMap.compute(ConcurrentHashMap.java:1955)
+[23:23:58] [Paper Watchdog Thread/ERROR]: 		Terra-bukkit-6.3.1-BETA+73baaec6c-shaded (1).jar//com.github.benmanes.caffeine.cache.BoundedLocalCache.doComputeIfAbsent(BoundedLocalCache.java:2548)
+[23:23:58] [Paper Watchdog Thread/ERROR]: 		Terra-bukkit-6.3.1-BETA+73baaec6c-shaded (1).jar//com.github.benmanes.caffeine.cache.BoundedLocalCache.computeIfAbsent(BoundedLocalCache.java:2531)
+[23:23:58] [Paper Watchdog Thread/ERROR]: 		Terra-bukkit-6.3.1-BETA+73baaec6c-shaded (1).jar//com.github.benmanes.caffeine.cache.LocalCache.computeIfAbsent(LocalCache.java:110)
+[23:23:58] [Paper Watchdog Thread/ERROR]: 		Terra-bukkit-6.3.1-BETA+73baaec6c-shaded (1).jar//com.github.benmanes.caffeine.cache.LocalLoadingCache.get(LocalLoadingCache.java:58)
+[23:23:58] [Paper Watchdog Thread/ERROR]: 		com.dfsek.terra.addons.biome.pipeline.BiomePipelineProvider.getBiome(BiomePipelineProvider.java:91)
+[23:23:58] [Paper Watchdog Thread/ERROR]: 		com.dfsek.terra.addons.biome.pipeline.BiomePipelineProvider.getBiome(BiomePipelineProvider.java:78)
+[23:23:58] [Paper Watchdog Thread/ERROR]: 		com.dfsek.terra.addons.biome.extrusion.BiomeExtrusionProvider.getBiome(BiomeExtrusionProvider.java:30)
+[23:23:58] [Paper Watchdog Thread/ERROR]: 		Terra-bukkit-6.3.1-BETA+73baaec6c-shaded (1).jar//com.dfsek.terra.bukkit.nms.v1_20_R1.NMSBiomeProvider.getNoiseBiome(NMSBiomeProvider.java:42)
+[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.getUncachedNoiseBiome(ServerLevel.java:761)
+[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.item.MapItem.renderBiomePreviewMap(MapItem.java:259)
+[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction.run(ExplorationMapFunction.java:83)
+[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemConditionalFunction.apply(LootItemConditionalFunction.java:30)
+[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction.apply(ExplorationMapFunction.java:30)
+[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunctions.lambda$compose$1(LootItemFunctions.java:60)
+[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunctions$$Lambda$4442/0x000079fd349a49c0.apply(Unknown Source)
+[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunction.decorate(LootItemFunction.java:13)
+[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunction$$Lambda$7198/0x000079fd353b8000.accept(Unknown Source)
+[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.entries.LootItem.createItemStack(LootItem.java:32)
+[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$1.createItemStack(LootPoolSingletonContainer.java:31)
+[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootPool.addRandomItem(LootPool.java:71)
+[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootPool.addRandomItems(LootPool.java:93)
+[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItemsRaw(LootTable.java:100)
+[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItems(LootTable.java:119)
+[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItems(LootTable.java:134)
+[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.fillInventory(LootTable.java:163)
+[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.fill(LootTable.java:157)
+[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity.unpackLootTable(RandomizableContainerBlockEntity.java:85)
+[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity.createMenu(RandomizableContainerBlockEntity.java:165)
+[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerPlayer.openMenu(ServerPlayer.java:1560)
+[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.ChestBlock.use(ChestBlock.java:269)
+[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.use(BlockBehaviour.java:1177)
+[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerPlayerGameMode.useItemOn(ServerPlayerGameMode.java:582)
+[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItemOn(ServerGamePacketListenerImpl.java:2015)
+[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:37)
+[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.a(ServerboundUseItemOnPacket.java:9)
+[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:51)
+[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.PlayerConnectionUtils$$Lambda$7091/0x000079fd3538c240.run(Unknown Source)
+[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
+[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153)
+[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1338)
+[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.d(MinecraftServer.java:197)
+[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126)
+[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1315)
+[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1308)
+[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.runAllTasks(BlockableEventLoop.java:114)
+[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1424)
+[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1170)
+[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317)
+[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4589/0x000079fd34a20b00.run(Unknown Source)
+[23:23:58] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.13/java.lang.Thread.run(Thread.java:840)
+[23:23:58] [Paper Watchdog Thread/ERROR]: ------------------------------
+[23:23:58] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[23:23:58] [Paper Watchdog Thread/ERROR]: ------------------------------
+[23:23:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10346ms or 206 ticks behind
+[23:23:58] [Server thread/WARN]: _JoSeP_05 moved too quickly! -1.1909831687798942,9.078948335280643,4.595049528369145
+[23:23:58] [Server thread/WARN]: G4MM4___ moved too quickly! 2.242872387204784,-15.259773732727425,-1.7554789547409655

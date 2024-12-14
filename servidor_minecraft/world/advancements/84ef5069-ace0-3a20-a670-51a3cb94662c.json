@@ -506,7 +506,8 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_beef": "2024-12-14 23:03:21 +0000",
-      "mutton": "2024-12-14 23:12:11 +0000"
+      "mutton": "2024-12-14 23:12:11 +0000",
+      "cooked_chicken": "2024-12-14 23:13:41 +0000"
     },
     "done": false
   },
@@ -522,6 +523,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/iron_ingot_from_smelting_raw_iron": {
+    "criteria": {
+      "has_raw_iron": "2024-12-14 23:16:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_iron_block": {
+    "criteria": {
+      "has_raw_iron": "2024-12-14 23:16:59 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/sleep_in_bed": {
     "criteria": {
       "slept_in_bed": "2024-12-14 23:12:37 +0000"
@@ -531,6 +544,12 @@
   "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
     "criteria": {
       "has_porkchop": "2024-12-14 23:10:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_blasting_raw_iron": {
+    "criteria": {
+      "has_raw_iron": "2024-12-14 23:16:59 +0000"
     },
     "done": true
   },
