@@ -1,25 +1,24 @@
-[22:55:53] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[22:55:53] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
-[22:55:54] [ServerMain/INFO]: Loaded 7 recipes
-[22:55:55] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[22:55:55] [Server thread/INFO]: Loading properties
-[22:55:55] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
-[22:55:55] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[22:55:55] [Server thread/INFO]: Using 4 threads for Netty based IO
-[22:55:56] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[04:05:16] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[04:05:18] [ServerMain/INFO]: Loaded 7 recipes
+[04:05:18] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[04:05:18] [Server thread/INFO]: Loading properties
+[04:05:18] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
+[04:05:19] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[04:05:19] [Server thread/INFO]: Using 4 threads for Netty based IO
+[04:05:19] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[22:55:56] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[22:55:56] [Server thread/INFO]: Default game type: SURVIVAL
-[22:55:56] [Server thread/INFO]: Generating keypair
-[22:55:56] [Server thread/INFO]: Starting Minecraft server on *:25565
-[22:55:56] [Server thread/INFO]: Using epoll channel type
-[22:55:56] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[22:55:56] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[22:55:57] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Initializing Terra...
-[22:55:57] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Loading config.yml
-[22:55:57] [Server thread/INFO]: [com.dfsek.terra.config.PluginConfigImpl] Loading config values from config.yml
-[22:55:57] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Loading 35 Terra addons:
+[04:05:19] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[04:05:20] [Server thread/INFO]: Default game type: SURVIVAL
+[04:05:20] [Server thread/INFO]: Generating keypair
+[04:05:20] [Server thread/INFO]: Starting Minecraft server on *:25565
+[04:05:20] [Server thread/INFO]: Using epoll channel type
+[04:05:20] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[04:05:20] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[04:05:21] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Initializing Terra...
+[04:05:21] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Loading config.yml
+[04:05:21] [Server thread/INFO]: [com.dfsek.terra.config.PluginConfigImpl] Loading config values from config.yml
+[04:05:21] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Loading 35 Terra addons:
         - biome-provider-extrusion@1.0.0-BETA+73baaec6c
         - biome-provider-image@1.0.0-BETA+73baaec6c
         - biome-provider-image-v2@1.0.0-BETA+73baaec6c
@@ -55,263 +54,129 @@
         - terra@1.0.0
         - terra-bukkit@1.0.0
         - terrascript-function-sampler@1.0.0-BETA+73baaec6c
-[22:55:57] [Server thread/WARN]: [com.dfsek.terra.addons.biome.pipeline.BiomePipelineAddon] The biome-provider-pipeline addon is deprecated and scheduled for removal in Terra 7.0. It is recommended to use the biome-provider-pipeline-v2 addon for future pack development instead.
-[22:55:57] [Server thread/WARN]: [com.dfsek.terra.addons.biome.image.ImageBiomeProviderAddon] The biome-provider-image addon is deprecated and scheduled for removal in Terra 7.0. It is recommended to use the biome-provider-image-v2 addon for future pack development instead.
-[22:55:57] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Terra addons successfully loaded.
-[22:55:57] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Finished initialization.
-[22:55:57] [Server thread/INFO]: [FastChunkPregenerator] Loading server plugin FastChunkPregenerator v2.0.9-SNAPSHOT
-[22:55:57] [Server thread/INFO]: [Terra] Loading server plugin Terra v6.3.1-BETA+73baaec6c
-[22:55:57] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[22:55:57] [Server thread/INFO]: [Terra] Enabling Terra v6.3.1-BETA+73baaec6c
-[22:55:57] [Server thread/INFO]: [com.dfsek.terra.bukkit.TerraBukkitPlugin] Running on Minecraft version v1.20.1 with server implementation Paper.
-[22:55:57] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Loading config packs...
-[22:55:57] [Server thread/INFO]: [com.dfsek.terra.registry.master.ConfigRegistry] Loading ZIP archive: default.zip
-[22:55:58] [Server thread/INFO]: [com.dfsek.terra.config.pack.ConfigPackImpl] Loading config pack "OVERWORLD:OVERWORLD"
-[22:55:59] [Server thread/INFO]: [com.dfsek.terra.config.pack.ConfigPackImpl] Loaded config pack "OVERWORLD:OVERWORLD" v1.3.3 by Astrash, Sancires, Aureus in 2348.505028ms.
-[22:55:59] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Loaded packs.
-[22:56:00] [Server thread/INFO]: [com.dfsek.terra.bukkit.nms.v1_20_R1.AwfulBukkitHacks] Hacking biome registry...
-[22:56:00] [Server thread/INFO]: [com.dfsek.terra.bukkit.nms.v1_20_R1.AwfulBukkitHacks] Doing tag garbage....
-[22:56:00] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[22:56:00] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[22:56:00] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[22:56:00] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[22:56:00] [Server thread/INFO]: Preparing level "world"
-[22:56:00] [Server thread/INFO]: [com.dfsek.terra.bukkit.nms.v1_20_R1.NMSInjectListener] Preparing to take over the world: world
-[22:56:00] [Server thread/INFO]: [com.dfsek.terra.bukkit.nms.v1_20_R1.NMSInjectListener] Successfully injected into world.
-[22:56:30] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[22:56:30] [Server thread/INFO]: Time elapsed: 65 ms
-[22:56:30] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[22:56:30] [Server thread/INFO]: Time elapsed: 56 ms
-[22:56:30] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[22:56:30] [Server thread/INFO]: Time elapsed: 27 ms
-[22:56:30] [Server thread/INFO]: [FastChunkPregenerator] Enabling FastChunkPregenerator v2.0.9-SNAPSHOT
-[22:56:30] [Server thread/INFO]: [FastChunkPregenerator] >> Paper was found.
-[22:56:30] [Server thread/INFO]: [FastChunkPregenerator] >> Async chunk loading support is enabled.
-[22:56:30] [Server thread/INFO]: Running delayed init tasks
-[22:56:30] [Server thread/INFO]: Done (35.556s)! For help, type "help"
-[22:56:30] [Server thread/INFO]: Timings Reset
-[22:56:43] [User Authenticator #0/INFO]: UUID of player G4MM4___ is d928339c-a47f-3789-9e04-17119003d19d
-[22:56:43] [Server thread/INFO]: G4MM4___ joined the game
-[22:56:43] [Server thread/INFO]: G4MM4___[/127.201.110.57:59533] logged in with entity id 61 at ([world]8.5, 65.0, -263.5)
-[22:56:56] [User Authenticator #0/INFO]: UUID of player tulagrandea is 3ec36fb6-9738-3522-8762-b4d784603c31
-[22:56:56] [Server thread/INFO]: tulagrandea joined the game
-[22:56:56] [Server thread/INFO]: tulagrandea[/127.201.110.57:33069] logged in with entity id 341 at ([world]8.5, 65.0, -263.5)
-[22:56:59] [Async Chat Thread - #1/INFO]: [Not Secure] <G4MM4___> :V
-[22:57:44] [User Authenticator #0/INFO]: UUID of player _JoSeP_05 is 84ef5069-ace0-3a20-a670-51a3cb94662c
-[22:57:44] [Server thread/INFO]: _JoSeP_05 joined the game
-[22:57:44] [Server thread/INFO]: _JoSeP_05[/127.201.110.57:53247] logged in with entity id 660 at ([world]8.5, 65.0, -263.5)
-[22:57:51] [Server thread/INFO]: G4MM4___ issued server command: /tp _JoSeP_05 G4MM4___
-[22:57:51] [Server thread/INFO]: [G4MM4___: Teleported _JoSeP_05 to G4MM4___]
-[22:58:07] [Server thread/INFO]: G4MM4___ issued server command: /tp
-[22:58:37] [Async Chat Thread - #2/INFO]: [Not Secure] <tulagrandea> barra sid
-[22:58:44] [Server thread/INFO]: G4MM4___ has made the advancement [Stone Age]
-[22:58:52] [Server thread/INFO]: G4MM4___ has made the advancement [Getting an Upgrade]
-[22:58:55] [Server thread/INFO]: tulagrandea has made the advancement [Stone Age]
-[22:59:02] [Server thread/INFO]: tulagrandea has made the advancement [Getting an Upgrade]
-[22:59:30] [Server thread/INFO]: _JoSeP_05 has made the advancement [Stone Age]
-[22:59:47] [Server thread/INFO]: _JoSeP_05 has made the advancement [Getting an Upgrade]
-[23:00:05] [Server thread/INFO]: G4MM4___ issued server command: /difficulty hard
-[23:00:05] [Server thread/INFO]: [G4MM4___: The difficulty has been set to Hard]
-[23:00:41] [Server thread/INFO]: tulagrandea has made the advancement [Acquire Hardware]
-[23:00:50] [Tuinity Chunk System Worker #0/WARN]: [com.dfsek.terra.bukkit.world.BukkitProtoWorld] Detected world access at coordinates out of bounds: (-572, 105, -369) accessed for region [-36, -22]
-[23:00:53] [Async Chat Thread - #4/INFO]: [Not Secure] <G4MM4___> aa
-[23:01:07] [Async Chat Thread - #5/INFO]: [Not Secure] <tulagrandea> hola
-[23:01:15] [Async Chat Thread - #4/INFO]: [Not Secure] <tulagrandea> te voy a donar bits amigo
-[23:01:15] [Async Chat Thread - #5/INFO]: [Not Secure] <G4MM4___> clalte
-[23:01:22] [Async Chat Thread - #4/INFO]: [Not Secure] <tulagrandea> de nada
-[23:01:27] [Server thread/INFO]: G4MM4___ has made the advancement [Acquire Hardware]
-[23:01:39] [Async Chat Thread - #5/INFO]: [Not Secure] <tulagrandea> que bien mi streamer favorito
-[23:01:49] [Server thread/INFO]: G4MM4___ has made the advancement [Isn't It Iron Pick]
-[23:02:15] [Server thread/INFO]: _JoSeP_05 has made the advancement [Monster Hunter]
-[23:03:38] [Async Chat Thread - #6/INFO]: [Not Secure] <G4MM4___> :v
-[23:03:47] [Async Chat Thread - #7/INFO]: [Not Secure] <_JoSeP_05> ;v
-[23:03:52] [Async Chat Thread - #6/INFO]: [Not Secure] <tulagrandea> :v
-[23:08:02] [Server thread/INFO]: G4MM4___ issued server command: /kick @a
-[23:08:02] [Server thread/INFO]: G4MM4___ lost connection: Kicked by an operator
-[23:08:02] [Server thread/INFO]: G4MM4___ left the game
-[23:08:02] [Server thread/INFO]: [G4MM4___: Kicked G4MM4___: Kicked by an operator]
-[23:08:02] [Server thread/INFO]: tulagrandea lost connection: Kicked by an operator
-[23:08:02] [Server thread/INFO]: tulagrandea left the game
-[23:08:02] [Server thread/INFO]: [G4MM4___: Kicked tulagrandea: Kicked by an operator]
-[23:08:02] [Server thread/INFO]: _JoSeP_05 lost connection: Kicked by an operator
-[23:08:02] [Server thread/INFO]: _JoSeP_05 left the game
-[23:08:02] [Server thread/INFO]: [G4MM4___: Kicked _JoSeP_05: Kicked by an operator]
-[23:08:05] [User Authenticator #1/INFO]: UUID of player G4MM4___ is d928339c-a47f-3789-9e04-17119003d19d
-[23:08:05] [Server thread/INFO]: G4MM4___ joined the game
-[23:08:05] [Server thread/INFO]: G4MM4___[/127.201.110.57:54023] logged in with entity id 5142 at ([world]-247.7501148063348, 112.0, 357.69999998807907)
-[23:08:15] [User Authenticator #1/INFO]: UUID of player _JoSeP_05 is 84ef5069-ace0-3a20-a670-51a3cb94662c
-[23:08:15] [Server thread/INFO]: _JoSeP_05 joined the game
-[23:08:15] [Server thread/INFO]: _JoSeP_05[/127.201.110.57:40269] logged in with entity id 5344 at ([world]-425.2079694765867, 68.0, -265.70276612356884)
-[23:08:22] [User Authenticator #1/INFO]: UUID of player tulagrandea is 3ec36fb6-9738-3522-8762-b4d784603c31
-[23:08:22] [Server thread/INFO]: tulagrandea joined the game
-[23:08:22] [Server thread/INFO]: tulagrandea[/127.201.110.57:52445] logged in with entity id 5572 at ([world]-509.69999998807907, 77.0, -71.69999998807907)
-[23:08:39] [Server thread/INFO]: tulagrandea lost connection: Disconnected
-[23:08:39] [Server thread/INFO]: tulagrandea left the game
-[23:08:41] [User Authenticator #1/INFO]: UUID of player tulagrandea is 3ec36fb6-9738-3522-8762-b4d784603c31
-[23:08:41] [Server thread/INFO]: tulagrandea joined the game
-[23:08:41] [Server thread/INFO]: tulagrandea[/127.201.110.57:36769] logged in with entity id 5716 at ([world]-509.69999998807907, 77.0, -71.69999998807907)
-[23:09:21] [Async Chat Thread - #8/INFO]: [Not Secure] <G4MM4___> -230 115 370
-[23:09:38] [Server thread/INFO]: G4MM4___ has made the advancement [Not Today, Thank You]
-[23:10:10] [Server thread/INFO]: G4MM4___ has made the advancement [Suit Up]
-[23:11:56] [Server thread/INFO]: tulagrandea has made the advancement [Monster Hunter]
-[23:12:22] [Server thread/INFO]: tulagrandea has made the advancement [Sweet Dreams]
-[23:12:37] [Server thread/INFO]: _JoSeP_05 has made the advancement [Sweet Dreams]
-[23:12:40] [Async Chat Thread - #10/INFO]: [Not Secure] <_JoSeP_05> zzz
-[23:12:40] [Async Chat Thread - #11/INFO]: [Not Secure] <_JoSeP_05> zzzzz
-[23:12:41] [Async Chat Thread - #10/INFO]: [Not Secure] <_JoSeP_05> zzzz
-[23:12:42] [Async Chat Thread - #11/INFO]: [Not Secure] <_JoSeP_05> z
-[23:12:42] [Async Chat Thread - #10/INFO]: [Not Secure] <_JoSeP_05> zz
-[23:12:42] [Async Chat Thread - #11/INFO]: [Not Secure] <_JoSeP_05> z
-[23:12:42] [Async Chat Thread - #10/INFO]: [Not Secure] <_JoSeP_05> z
-[23:12:42] [Async Chat Thread - #11/INFO]: [Not Secure] <_JoSeP_05> z
-[23:12:43] [Async Chat Thread - #10/INFO]: [Not Secure] <_JoSeP_05> z
-[23:12:43] [Async Chat Thread - #11/INFO]: [Not Secure] <_JoSeP_05> z
-[23:12:43] [Async Chat Thread - #10/INFO]: [Not Secure] <_JoSeP_05> z
-[23:12:44] [Async Chat Thread - #12/INFO]: [Not Secure] <_JoSeP_05> zzzz
-[23:13:03] [Async Chat Thread - #10/INFO]: [Not Secure] <tulagrandea> zeta zeta
-[23:13:17] [Async Chat Thread - #11/INFO]: [Not Secure] <tulagrandea> 7
-[23:13:19] [Async Chat Thread - #12/INFO]: [Not Secure] <tulagrandea> 7
-[23:13:20] [Async Chat Thread - #11/INFO]: [Not Secure] <tulagrandea> 7
-[23:13:39] [Async Chat Thread - #12/INFO]: [Not Secure] <G4MM4___> :v
-[23:13:55] [Async Chat Thread - #11/INFO]: [Not Secure] <tulagrandea> barra kich G4MM4___
-[23:13:58] [Async Chat Thread - #12/INFO]: [Not Secure] <G4MM4___> sebastian dice me gusta la pinga
-[23:14:17] [Server thread/INFO]: tulagrandea has made the advancement [Suit Up]
-[23:14:29] [Server thread/INFO]: tulagrandea lost connection: Disconnected
-[23:14:29] [Server thread/INFO]: tulagrandea left the game
-[23:14:35] [User Authenticator #2/INFO]: UUID of player tulagrandea is 3ec36fb6-9738-3522-8762-b4d784603c31
-[23:14:35] [Server thread/INFO]: tulagrandea joined the game
-[23:14:35] [Server thread/INFO]: tulagrandea[/127.201.110.57:59495] logged in with entity id 8674 at ([world]-1052.699999988079, 85.0, 62.7326801944777)
-[23:14:36] [Server thread/INFO]: G4MM4___ issued server command: /ban tulagrandea hola
-[23:14:36] [Server thread/INFO]: [G4MM4___: Banned tulagrandea: hola]
-[23:14:36] [Server thread/INFO]: tulagrandea lost connection: You are banned from this server
-[23:14:36] [Server thread/INFO]: tulagrandea left the game
-[23:14:42] [User Authenticator #2/INFO]: UUID of player tulagrandea is 3ec36fb6-9738-3522-8762-b4d784603c31
-[23:14:42] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@f5f2cf4[id=3ec36fb6-9738-3522-8762-b4d784603c31,name=tulagrandea,properties={},legacy=false] (/127.201.110.57:41563): You are banned from this server.
-Reason: hola
-[23:14:42] [Server thread/INFO]: com.mojang.authlib.GameProfile@f5f2cf4[id=3ec36fb6-9738-3522-8762-b4d784603c31,name=tulagrandea,properties={},legacy=false] (/127.201.110.57:41563) lost connection: You are banned from this server.
-Reason: hola
-[23:14:56] [User Authenticator #2/INFO]: UUID of player tulagrandea is 3ec36fb6-9738-3522-8762-b4d784603c31
-[23:14:56] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@41769226[id=3ec36fb6-9738-3522-8762-b4d784603c31,name=tulagrandea,properties={},legacy=false] (/127.201.110.57:38427): You are banned from this server.
-Reason: hola
-[23:14:56] [Server thread/INFO]: com.mojang.authlib.GameProfile@41769226[id=3ec36fb6-9738-3522-8762-b4d784603c31,name=tulagrandea,properties={},legacy=false] (/127.201.110.57:38427) lost connection: You are banned from this server.
-Reason: hola
-[23:15:04] [Server thread/INFO]: G4MM4___ issued server command: /pardon tulagrandea
-[23:15:04] [Server thread/INFO]: [G4MM4___: Unbanned tulagrandea]
-[23:15:06] [User Authenticator #2/INFO]: UUID of player tulagrandea is 3ec36fb6-9738-3522-8762-b4d784603c31
-[23:15:06] [Server thread/INFO]: tulagrandea joined the game
-[23:15:06] [Server thread/INFO]: tulagrandea[/127.201.110.57:46975] logged in with entity id 8948 at ([world]-1052.699999988079, 85.0, 62.7326801944777)
-[23:19:48] [Async Chat Thread - #13/INFO]: [Not Secure] <_JoSeP_05> sebas puto
-[23:19:59] [Async Chat Thread - #14/INFO]: [Not Secure] <tulagrandea> ya lo borre
-[23:21:38] [Server thread/INFO]: G4MM4___ has made the advancement [Monster Hunter]
-[23:21:45] [Async Chat Thread - #15/INFO]: [Not Secure] <tulagrandea> y el agua
-[23:21:53] [Async Chat Thread - #15/INFO]: [Not Secure] <tulagrandea> ayuda me muero
-[23:23:20] [Server thread/WARN]: Boat (vehicle of G4MM4___) moved wrongly! 4.0382054222330614
-[23:23:20] [Server thread/WARN]: Boat (vehicle of G4MM4___) moved wrongly! 4.0382054222330614
-[23:23:20] [Server thread/WARN]: Boat (vehicle of G4MM4___) moved wrongly! 4.0382054222330614
-[23:23:20] [Server thread/WARN]: Boat (vehicle of G4MM4___) moved wrongly! 4.0382054222330614
-[23:23:57] [Async Chat Thread - #17/INFO]: [Not Secure] <tulagrandea> y agua
-[23:23:58] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-196 (MC: 1.20.1) ---
-[23:23:58] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
-[23:23:58] [Paper Watchdog Thread/ERROR]: ------------------------------
-[23:23:58] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[23:23:58] [Paper Watchdog Thread/ERROR]: Ticking entity: minecraft:player, entity class: net.minecraft.server.level.EntityPlayer
-[23:23:58] [Paper Watchdog Thread/ERROR]: Entity status: removed: false, valid: true, alive: true, is passenger: false
-[23:23:58] [Paper Watchdog Thread/ERROR]: Entity UUID: 84ef5069-ace0-3a20-a670-51a3cb94662c
-[23:23:58] [Paper Watchdog Thread/ERROR]: Position: world: 'world' at location (989.6636818991741, 45.0, 609.9901829193823)
-[23:23:58] [Paper Watchdog Thread/ERROR]: Velocity: (0.002814910549983063, -0.0, -0.03695333082862549) (in blocks per tick)
-[23:23:58] [Paper Watchdog Thread/ERROR]: Entity AABB: AABB[989.3636818872532, 45.0, 609.6901829074613] -> [989.963681911095, 45.60000002384186, 610.2901829313032]
-[23:23:58] [Paper Watchdog Thread/ERROR]: Total packets processed on the main thread for all players: 103608
-[23:23:58] [Paper Watchdog Thread/ERROR]: ------------------------------
-[23:23:58] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[23:23:58] [Paper Watchdog Thread/ERROR]: 	PID: 27 | Suspended: false | Native: false | State: RUNNABLE
-[23:23:58] [Paper Watchdog Thread/ERROR]: 	Stack:
-[23:23:58] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.13/java.util.HashMap.hash(HashMap.java:338)
-[23:23:58] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.13/java.util.HashMap.getNode(HashMap.java:568)
-[23:23:58] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.13/java.util.HashMap.containsKey(HashMap.java:594)
-[23:23:58] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.13/java.util.HashSet.contains(HashSet.java:205)
-[23:23:58] [Paper Watchdog Thread/ERROR]: 		com.dfsek.terra.addons.biome.pipeline.mutator.ReplaceMutator.mutate(ReplaceMutator.java:33)
-[23:23:58] [Paper Watchdog Thread/ERROR]: 		com.dfsek.terra.addons.biome.pipeline.BiomeHolderImpl.mutate(BiomeHolderImpl.java:68)
-[23:23:58] [Paper Watchdog Thread/ERROR]: 		com.dfsek.terra.addons.biome.pipeline.stages.MutatorStage.apply(MutatorStage.java:25)
-[23:23:58] [Paper Watchdog Thread/ERROR]: 		com.dfsek.terra.addons.biome.pipeline.BiomePipeline.getBiomes(BiomePipeline.java:44)
-[23:23:58] [Paper Watchdog Thread/ERROR]: 		com.dfsek.terra.addons.biome.pipeline.BiomePipelineProvider.lambda$new$0(BiomePipelineProvider.java:45)
-[23:23:58] [Paper Watchdog Thread/ERROR]: 		com.dfsek.terra.addons.biome.pipeline.BiomePipelineProvider$$Lambda$5702/0x000079fd34e27000.load(Unknown Source)
-[23:23:58] [Paper Watchdog Thread/ERROR]: 		Terra-bukkit-6.3.1-BETA+73baaec6c-shaded (1).jar//com.github.benmanes.caffeine.cache.LocalLoadingCache.lambda$newMappingFunction$3(LocalLoadingCache.java:197)
-[23:23:58] [Paper Watchdog Thread/ERROR]: 		Terra-bukkit-6.3.1-BETA+73baaec6c-shaded (1).jar//com.github.benmanes.caffeine.cache.LocalLoadingCache$$Lambda$5704/0x000079fd34e2fd18.apply(Unknown Source)
-[23:23:58] [Paper Watchdog Thread/ERROR]: 		Terra-bukkit-6.3.1-BETA+73baaec6c-shaded (1).jar//com.github.benmanes.caffeine.cache.BoundedLocalCache.lambda$doComputeIfAbsent$13(BoundedLocalCache.java:2550)
-[23:23:58] [Paper Watchdog Thread/ERROR]: 		Terra-bukkit-6.3.1-BETA+73baaec6c-shaded (1).jar//com.github.benmanes.caffeine.cache.BoundedLocalCache$$Lambda$5986/0x000079fd34ece1f8.apply(Unknown Source)
-[23:23:58] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.13/java.util.concurrent.ConcurrentHashMap.compute(ConcurrentHashMap.java:1955)
-[23:23:58] [Paper Watchdog Thread/ERROR]: 		Terra-bukkit-6.3.1-BETA+73baaec6c-shaded (1).jar//com.github.benmanes.caffeine.cache.BoundedLocalCache.doComputeIfAbsent(BoundedLocalCache.java:2548)
-[23:23:58] [Paper Watchdog Thread/ERROR]: 		Terra-bukkit-6.3.1-BETA+73baaec6c-shaded (1).jar//com.github.benmanes.caffeine.cache.BoundedLocalCache.computeIfAbsent(BoundedLocalCache.java:2531)
-[23:23:58] [Paper Watchdog Thread/ERROR]: 		Terra-bukkit-6.3.1-BETA+73baaec6c-shaded (1).jar//com.github.benmanes.caffeine.cache.LocalCache.computeIfAbsent(LocalCache.java:110)
-[23:23:58] [Paper Watchdog Thread/ERROR]: 		Terra-bukkit-6.3.1-BETA+73baaec6c-shaded (1).jar//com.github.benmanes.caffeine.cache.LocalLoadingCache.get(LocalLoadingCache.java:58)
-[23:23:58] [Paper Watchdog Thread/ERROR]: 		com.dfsek.terra.addons.biome.pipeline.BiomePipelineProvider.getBiome(BiomePipelineProvider.java:91)
-[23:23:58] [Paper Watchdog Thread/ERROR]: 		com.dfsek.terra.addons.biome.pipeline.BiomePipelineProvider.getBiome(BiomePipelineProvider.java:78)
-[23:23:58] [Paper Watchdog Thread/ERROR]: 		com.dfsek.terra.addons.biome.extrusion.BiomeExtrusionProvider.getBiome(BiomeExtrusionProvider.java:30)
-[23:23:58] [Paper Watchdog Thread/ERROR]: 		Terra-bukkit-6.3.1-BETA+73baaec6c-shaded (1).jar//com.dfsek.terra.bukkit.nms.v1_20_R1.NMSBiomeProvider.getNoiseBiome(NMSBiomeProvider.java:42)
-[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.getUncachedNoiseBiome(ServerLevel.java:761)
-[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.item.MapItem.renderBiomePreviewMap(MapItem.java:259)
-[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction.run(ExplorationMapFunction.java:83)
-[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemConditionalFunction.apply(LootItemConditionalFunction.java:30)
-[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction.apply(ExplorationMapFunction.java:30)
-[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunctions.lambda$compose$1(LootItemFunctions.java:60)
-[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunctions$$Lambda$4442/0x000079fd349a49c0.apply(Unknown Source)
-[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunction.decorate(LootItemFunction.java:13)
-[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunction$$Lambda$7198/0x000079fd353b8000.accept(Unknown Source)
-[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.entries.LootItem.createItemStack(LootItem.java:32)
-[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$1.createItemStack(LootPoolSingletonContainer.java:31)
-[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootPool.addRandomItem(LootPool.java:71)
-[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootPool.addRandomItems(LootPool.java:93)
-[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItemsRaw(LootTable.java:100)
-[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItems(LootTable.java:119)
-[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItems(LootTable.java:134)
-[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.fillInventory(LootTable.java:163)
-[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.fill(LootTable.java:157)
-[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity.unpackLootTable(RandomizableContainerBlockEntity.java:85)
-[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity.createMenu(RandomizableContainerBlockEntity.java:165)
-[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerPlayer.openMenu(ServerPlayer.java:1560)
-[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.ChestBlock.use(ChestBlock.java:269)
-[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.use(BlockBehaviour.java:1177)
-[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerPlayerGameMode.useItemOn(ServerPlayerGameMode.java:582)
-[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItemOn(ServerGamePacketListenerImpl.java:2015)
-[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:37)
-[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.a(ServerboundUseItemOnPacket.java:9)
-[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:51)
-[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.PlayerConnectionUtils$$Lambda$7091/0x000079fd3538c240.run(Unknown Source)
-[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
-[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153)
-[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
-[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1338)
-[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.d(MinecraftServer.java:197)
-[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126)
-[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1315)
-[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1308)
-[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.runAllTasks(BlockableEventLoop.java:114)
-[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1424)
-[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1170)
-[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317)
-[23:23:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4589/0x000079fd34a20b00.run(Unknown Source)
-[23:23:58] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.13/java.lang.Thread.run(Thread.java:840)
-[23:23:58] [Paper Watchdog Thread/ERROR]: ------------------------------
-[23:23:58] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[23:23:58] [Paper Watchdog Thread/ERROR]: ------------------------------
-[23:23:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10346ms or 206 ticks behind
-[23:23:58] [Server thread/WARN]: _JoSeP_05 moved too quickly! -1.1909831687798942,9.078948335280643,4.595049528369145
-[23:23:58] [Server thread/WARN]: G4MM4___ moved too quickly! 2.242872387204784,-15.259773732727425,-1.7554789547409655
-[23:29:32] [Server thread/WARN]: tulagrandea moved too quickly! 1.690575217043488,0.003016261509046103,13.461227998504228
-[23:29:44] [Server thread/INFO]: _JoSeP_05 has made the advancement [Acquire Hardware]
-[23:31:26] [Server thread/INFO]: _JoSeP_05 has made the advancement [Suit Up]
-[23:36:29] [Server thread/INFO]: _JoSeP_05 has made the advancement [Ice Bucket Challenge]
-[23:37:42] [Server thread/INFO]: G4MM4___ issued server command: /near
-[23:37:46] [Async Chat Thread - #19/INFO]: [Not Secure] <G4MM4___> hola :V
-[23:43:03] [Server thread/INFO]: tulagrandea has made the advancement [Isn't It Iron Pick]
-[23:43:51] [Server thread/INFO]: G4MM4___ issued server command: /seed
-[23:45:54] [Server thread/WARN]: tulagrandea moved too quickly! -6.983077910714201,-7.57663054592237,-5.756338618545215
-[23:45:54] [Server thread/WARN]: _JoSeP_05 moved too quickly! 9.0240530343508,-2.8143479744865374,3.3616940244910154
-[23:48:10] [Server thread/INFO]: G4MM4___ has made the advancement [Sweet Dreams]
-[23:50:25] [Server thread/WARN]: Boat (vehicle of G4MM4___) moved wrongly! 0.6544177259545946
-[23:51:44] [Server thread/INFO]: _JoSeP_05 has made the advancement [Isn't It Iron Pick]
-[23:52:55] [Server thread/INFO]: tulagrandea was blown up by Creeper
-[23:54:19] [Server thread/INFO]: G4MM4___ issued server command: /tp tulagrandea _JoSeP_05
-[23:54:19] [Server thread/INFO]: [G4MM4___: Teleported tulagrandea to _JoSeP_05]
-[23:54:35] [Server thread/INFO]: tulagrandea was slain by Iron Golem
-[23:55:51] [Server thread/INFO]: tulagrandea fell from a high place
+[04:05:21] [Server thread/WARN]: [com.dfsek.terra.addons.biome.pipeline.BiomePipelineAddon] The biome-provider-pipeline addon is deprecated and scheduled for removal in Terra 7.0. It is recommended to use the biome-provider-pipeline-v2 addon for future pack development instead.
+[04:05:21] [Server thread/WARN]: [com.dfsek.terra.addons.biome.image.ImageBiomeProviderAddon] The biome-provider-image addon is deprecated and scheduled for removal in Terra 7.0. It is recommended to use the biome-provider-image-v2 addon for future pack development instead.
+[04:05:21] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Terra addons successfully loaded.
+[04:05:21] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Finished initialization.
+[04:05:21] [Server thread/INFO]: [FastChunkPregenerator] Loading server plugin FastChunkPregenerator v2.0.9-SNAPSHOT
+[04:05:21] [Server thread/INFO]: [Terra] Loading server plugin Terra v6.3.1-BETA+73baaec6c
+[04:05:21] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[04:05:21] [Server thread/INFO]: [Terra] Enabling Terra v6.3.1-BETA+73baaec6c
+[04:05:21] [Server thread/INFO]: [com.dfsek.terra.bukkit.TerraBukkitPlugin] Running on Minecraft version v1.20.1 with server implementation Paper.
+[04:05:21] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Loading config packs...
+[04:05:21] [Server thread/INFO]: [com.dfsek.terra.registry.master.ConfigRegistry] Loading ZIP archive: default.zip
+[04:05:22] [Server thread/INFO]: [com.dfsek.terra.config.pack.ConfigPackImpl] Loading config pack "OVERWORLD:OVERWORLD"
+[04:05:24] [Server thread/INFO]: [com.dfsek.terra.config.pack.ConfigPackImpl] Loaded config pack "OVERWORLD:OVERWORLD" v1.3.3 by Astrash, Sancires, Aureus in 2482.614361ms.
+[04:05:24] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Loaded packs.
+[04:05:24] [Server thread/INFO]: [com.dfsek.terra.bukkit.nms.v1_20_R1.AwfulBukkitHacks] Hacking biome registry...
+[04:05:24] [Server thread/INFO]: [com.dfsek.terra.bukkit.nms.v1_20_R1.AwfulBukkitHacks] Doing tag garbage....
+[04:05:24] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[04:05:24] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[04:05:24] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[04:05:24] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[04:05:24] [Server thread/INFO]: Preparing level "world"
+[04:05:25] [Server thread/INFO]: [com.dfsek.terra.bukkit.nms.v1_20_R1.NMSInjectListener] Preparing to take over the world: world
+[04:05:25] [Server thread/INFO]: [com.dfsek.terra.bukkit.nms.v1_20_R1.NMSInjectListener] Successfully injected into world.
+[04:05:25] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[04:05:25] [Server thread/INFO]: Time elapsed: 398 ms
+[04:05:25] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[04:05:25] [Server thread/INFO]: Time elapsed: 91 ms
+[04:05:25] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[04:05:25] [Server thread/INFO]: Time elapsed: 67 ms
+[04:05:25] [Server thread/INFO]: [FastChunkPregenerator] Enabling FastChunkPregenerator v2.0.9-SNAPSHOT
+[04:05:25] [Server thread/INFO]: [FastChunkPregenerator] >> Paper was found.
+[04:05:25] [Server thread/INFO]: [FastChunkPregenerator] >> Async chunk loading support is enabled.
+[04:05:26] [Server thread/INFO]: Running delayed init tasks
+[04:05:26] [Server thread/INFO]: Done (7.442s)! For help, type "help"
+[04:05:26] [Server thread/INFO]: Timings Reset
+[04:10:03] [User Authenticator #0/INFO]: UUID of player G4MM4___ is d928339c-a47f-3789-9e04-17119003d19d
+[04:10:03] [Server thread/INFO]: G4MM4___ joined the game
+[04:10:03] [Server thread/INFO]: G4MM4___[/127.253.210.71:46573] logged in with entity id 89 at ([world]3886.300000011921, 69.0, -774.1283155367622)
+[04:10:49] [User Authenticator #0/INFO]: UUID of player angienana is ae6a6538-d6d4-3dfe-9c89-7d2078f4d98b
+[04:10:49] [Server thread/INFO]: angienana joined the game
+[04:10:49] [Server thread/INFO]: angienana[/127.179.60.237:40353] logged in with entity id 382 at ([world]8.5, 65.0, -263.5)
+[04:11:40] [Async Chat Thread - #1/INFO]: [Not Secure] <G4MM4___> hola
+[04:12:19] [Server thread/INFO]: G4MM4___ issued server command: /tp angienana G4MM4___
+[04:12:19] [Server thread/INFO]: [G4MM4___: Teleported angienana to G4MM4___]
+[04:12:52] [Async Chat Thread - #2/INFO]: [Not Secure] <G4MM4___> habla por acá
+[04:15:07] [Async Chat Thread - #4/INFO]: [Not Secure] <G4MM4___> TTTTTTTTTTTTTTTTT
+[04:15:27] [Async Chat Thread - #5/INFO]: [Not Secure] <angienana> que hago:v
+[04:15:33] [Async Chat Thread - #4/INFO]: [Not Secure] <G4MM4___> ok muy bien
+[04:15:34] [Async Chat Thread - #5/INFO]: [Not Secure] <G4MM4___> ten
+[04:15:38] [Async Chat Thread - #4/INFO]: [Not Secure] <G4MM4___> ven
+[04:15:52] [Async Chat Thread - #5/INFO]: [Not Secure] <G4MM4___> rompe este arbol
+[04:15:55] [Async Chat Thread - #4/INFO]: [Not Secure] <G4MM4___> como te enseñe hoy
+[04:16:01] [Async Chat Thread - #5/INFO]: [Not Secure] <G4MM4___> con la hacha q te di ahorita
+[04:16:04] [Async Chat Thread - #4/INFO]: [Not Secure] <G4MM4___> zonza
+[04:16:14] [Async Chat Thread - #5/INFO]: [Not Secure] <G4MM4___> :'v
+[04:16:20] [Async Chat Thread - #4/INFO]: [Not Secure] <angienana> jajjjajajjjajaj
+[04:16:27] [Async Chat Thread - #5/INFO]: [Not Secure] <G4MM4___> apurate pq te matan
+[04:16:38] [Async Chat Thread - #4/INFO]: [Not Secure] <G4MM4___> recoge
+[04:16:45] [Async Chat Thread - #5/INFO]: [Not Secure] <G4MM4___> conviertelo a madera
+[04:16:47] [Async Chat Thread - #4/INFO]: [Not Secure] <G4MM4___> como te dije hoy
+[04:17:54] [Async Chat Thread - #6/INFO]: [Not Secure] <G4MM4___> has la casa
+[04:17:56] [Async Chat Thread - #7/INFO]: [Not Secure] <G4MM4___> con madera
+[04:18:18] [Async Chat Thread - #6/INFO]: [Not Secure] <angienana> no me cuerdo como era xd
+[04:18:23] [Async Chat Thread - #7/INFO]: [Not Secure] <G4MM4___> zonza
+[04:18:25] [Async Chat Thread - #6/INFO]: [Not Secure] <G4MM4___> a ver
+[04:18:28] [Async Chat Thread - #7/INFO]: [Not Secure] <G4MM4___> tienes tronco del arbol
+[04:18:30] [Async Chat Thread - #6/INFO]: [Not Secure] <G4MM4___> verdadP
+[04:18:34] [Async Chat Thread - #7/INFO]: [Not Secure] <G4MM4___> el q acabas de romper
+[04:18:52] [Async Chat Thread - #6/INFO]: [Not Secure] <G4MM4___> come primero
+[04:19:01] [Async Chat Thread - #7/INFO]: [Not Secure] <G4MM4___> click derecho a la comida
+[04:19:09] [Async Chat Thread - #6/INFO]: [Not Secure] <G4MM4___> manten presionado
+[04:19:11] [Async Chat Thread - #7/INFO]: [Not Secure] <G4MM4___> click derecho
+[04:19:23] [Async Chat Thread - #6/INFO]: [Not Secure] <G4MM4___> eso te sube los muslitos de comida
+[04:19:26] [Async Chat Thread - #6/INFO]: [Not Secure] <G4MM4___> recuerdas q te dije
+[04:19:33] [Async Chat Thread - #7/INFO]: [Not Secure] <G4MM4___> ahora
+[04:19:36] [Async Chat Thread - #6/INFO]: [Not Secure] <G4MM4___> los troncos
+[04:19:39] [Async Chat Thread - #7/INFO]: [Not Secure] <G4MM4___> del arbol
+[04:19:42] [Async Chat Thread - #6/INFO]: [Not Secure] <G4MM4___> q acabas de romper
+[04:19:46] [Async Chat Thread - #7/INFO]: [Not Secure] <G4MM4___> ahya
+[04:19:48] [Async Chat Thread - #6/INFO]: [Not Secure] <G4MM4___> ya convertiste
+[04:19:49] [Async Chat Thread - #7/INFO]: [Not Secure] <G4MM4___> muy bien
+[04:19:50] [Async Chat Thread - #6/INFO]: [Not Secure] <G4MM4___> has la casa
+[04:20:01] [Async Chat Thread - #7/INFO]: [Not Secure] <angienana> donde
+[04:20:02] [Async Chat Thread - #6/INFO]: [Not Secure] <G4MM4___> yo te traere madera tu has la casa
+[04:20:04] [Async Chat Thread - #7/INFO]: [Not Secure] <G4MM4___> donde sea
+[04:20:07] [Async Chat Thread - #6/INFO]: [Not Secure] <G4MM4___> mi casa era esto:V
+[04:20:38] [Async Chat Thread - #7/INFO]: [Not Secure] <G4MM4___> skksjsjsj
+[04:20:44] [Async Chat Thread - #6/INFO]: [Not Secure] <G4MM4___> dale click derecho
+[04:20:45] [Async Chat Thread - #7/INFO]: [Not Secure] <G4MM4___> jajsajsjasjasjaks
+[04:20:50] [Async Chat Thread - #6/INFO]: [Not Secure] <G4MM4___> jajsjasjasjjas
+[04:20:54] [Async Chat Thread - #7/INFO]: [Not Secure] <G4MM4___> bajate
+[04:21:00] [Async Chat Thread - #6/INFO]: [Not Secure] <G4MM4___> lo mismo q con agacharte
+[04:21:05] [Async Chat Thread - #7/INFO]: [Not Secure] <G4MM4___> es para bajar del bote
+[04:21:11] [Async Chat Thread - #6/INFO]: [Not Secure] <G4MM4___> mira ven
+[04:21:32] [Server thread/INFO]: angienana has made the advancement [Monster Hunter]
+[04:21:36] [Server thread/INFO]: angienana was slain by Enderman
+[04:21:45] [Server thread/INFO]: G4MM4___ was slain by Enderman
+[04:21:48] [Async Chat Thread - #7/INFO]: [Not Secure] <G4MM4___> NNAS
+[04:21:49] [Async Chat Thread - #6/INFO]: [Not Secure] <G4MM4___> jJAJAJSJAS
+[04:21:51] [Async Chat Thread - #7/INFO]: [Not Secure] <G4MM4___> kasjajjaja
+[04:21:55] [Async Chat Thread - #6/INFO]: [Not Secure] <angienana> xd
+[04:21:56] [Server thread/INFO]: G4MM4___ issued server command: /tp angienana G4MM4___
+[04:21:56] [Server thread/INFO]: [G4MM4___: Teleported angienana to G4MM4___]
+[04:21:59] [Async Chat Thread - #7/INFO]: [Not Secure] <G4MM4___> duerme
+[04:22:00] [Server thread/INFO]: angienana has made the advancement [Suit Up]
+[04:22:01] [Server thread/INFO]: angienana has made the advancement [Isn't It Iron Pick]
+[04:22:10] [Server thread/INFO]: angienana was slain by Enderman
+[04:22:18] [Server thread/INFO]: G4MM4___ was slain by Enderman
+[04:22:21] [Async Chat Thread - #6/INFO]: [Not Secure] <G4MM4___> ok
+[04:22:23] [Server thread/INFO]: G4MM4___ issued server command: /tp angienana G4MM4___
+[04:22:23] [Server thread/INFO]: [G4MM4___: Teleported angienana to G4MM4___]
+[04:22:25] [Async Chat Thread - #7/INFO]: [Not Secure] <G4MM4___> duerme
+[04:22:39] [Async Chat Thread - #6/INFO]: [Not Secure] <G4MM4___> duerme
+[04:22:42] [Server thread/INFO]: angienana has made the advancement [Sweet Dreams]
+[04:22:46] [Async Chat Thread - #7/INFO]: [Not Secure] <G4MM4___> ok levantate
+[04:22:49] [Async Chat Thread - #6/INFO]: [Not Secure] <G4MM4___> hay q matrlo
+[04:23:07] [Async Chat Thread - #7/INFO]: [Not Secure] <G4MM4___> ten ponte esto
+[04:23:14] [Async Chat Thread - #8/INFO]: [Not Secure] <angienana> donde estas
+[04:23:26] [Async Chat Thread - #7/INFO]: [Not Secure] <G4MM4___> pontelo
+[04:23:29] [Async Chat Thread - #8/INFO]: [Not Secure] <G4MM4___> dale a "E"
+[04:23:35] [Async Chat Thread - #6/INFO]: [Not Secure] <G4MM4___> y arrastra a donde esta tu personaje
+[04:23:38] [Async Chat Thread - #7/INFO]: [Not Secure] <G4MM4___> a los cuadros de al lado
+[04:24:07] [Async Chat Thread - #6/INFO]: [Not Secure] <G4MM4___> ok ahora tardaras más en morir
+[04:24:14] [Async Chat Thread - #7/INFO]: [Not Secure] <angienana> a
+[04:24:17] [Async Chat Thread - #6/INFO]: [Not Secure] <G4MM4___> sigue con la casa
+[04:24:18] [Async Chat Thread - #7/INFO]: [Not Secure] <angienana> kajskajskajsas
