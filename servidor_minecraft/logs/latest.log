@@ -176,3 +176,4 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 [01:36:20] [Server thread/INFO]: [Jdegoeberen: Created new objective [Muertes]]
 [01:36:45] [Server thread/INFO]: Jdegoeberen issued server command: /scoreboard objectives setdisplay sidebar muertes
 [01:36:45] [Server thread/INFO]: [Jdegoeberen: Set display slot sidebar to show objective Muertes]
+[01:45:21] [Async Chat Thread - #1/INFO]: [Not Secure] <Jdegoeberen> momasos diego
