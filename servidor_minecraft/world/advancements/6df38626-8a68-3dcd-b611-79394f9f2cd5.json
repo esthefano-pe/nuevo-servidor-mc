@@ -371,6 +371,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_deepslate": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-01-03 04:24:56 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/iron_pickaxe": {
     "criteria": {
       "has_iron_ingot": "2025-01-03 03:26:45 +0000"
@@ -419,6 +425,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-01-03 04:24:56 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_ingot_from_smelting_raw_gold": {
     "criteria": {
       "has_raw_gold": "2025-01-03 03:36:39 +0000"
@@ -443,6 +455,24 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/deepslate_brick_wall_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-01-03 04:24:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_leggings": {
+    "criteria": {
+      "has_diamond": "2025-01-03 04:24:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-01-03 04:24:56 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_beef_from_smoking": {
     "criteria": {
       "has_beef": "2025-01-03 03:08:48 +0000"
@@ -458,6 +488,12 @@
   "minecraft:recipes/misc/iron_nugget_from_smelting": {
     "criteria": {
       "has_iron_pickaxe": "2025-01-03 03:27:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate_slab_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-01-03 04:24:56 +0000"
     },
     "done": true
   },
@@ -545,6 +581,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/deepslate_brick_stairs_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-01-03 04:24:56 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/stone_sword": {
     "criteria": {
       "has_cobblestone": "2025-01-03 03:21:48 +0000"
@@ -569,6 +611,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/deepslate_brick_slab_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-01-03 04:24:56 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/lapis_block": {
     "criteria": {
       "has_lapis_lazuli": "2025-01-03 03:29:33 +0000"
@@ -578,6 +626,12 @@
   "minecraft:recipes/decorations/lantern": {
     "criteria": {
       "has_iron_ingot": "2025-01-03 03:26:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobbled_deepslate_slab_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-01-03 04:24:56 +0000"
     },
     "done": true
   },
@@ -608,6 +662,24 @@
   "minecraft:recipes/misc/iron_nugget": {
     "criteria": {
       "has_iron_ingot": "2025-01-03 03:26:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_slab_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-01-03 04:24:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_sword": {
+    "criteria": {
+      "has_diamond": "2025-01-03 04:24:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jukebox": {
+    "criteria": {
+      "has_diamond": "2025-01-03 04:24:43 +0000"
     },
     "done": true
   },
@@ -659,6 +731,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/diamond_chestplate": {
+    "criteria": {
+      "has_diamond": "2025-01-03 04:24:43 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/mine_stone": {
     "criteria": {
       "get_stone": "2025-01-03 03:21:48 +0000"
@@ -701,6 +779,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cobbled_deepslate_stairs": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-01-03 04:24:56 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/golden_apple": {
     "criteria": {
       "has_gold_ingot": "2025-01-03 04:06:55 +0000"
@@ -740,6 +824,12 @@
   "minecraft:story/upgrade_tools": {
     "criteria": {
       "stone_pickaxe": "2025-01-03 03:22:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_helmet": {
+    "criteria": {
+      "has_diamond": "2025-01-03 04:24:43 +0000"
     },
     "done": true
   },
@@ -827,6 +917,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/chiseled_deepslate_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-01-03 04:24:56 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/spruce_fence_gate": {
     "criteria": {
       "has_planks": "2025-01-03 03:10:51 +0000"
@@ -836,6 +932,12 @@
   "minecraft:recipes/combat/golden_sword": {
     "criteria": {
       "has_gold_ingot": "2025-01-03 04:06:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobbled_deepslate_slab": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-01-03 04:24:56 +0000"
     },
     "done": true
   },
@@ -854,6 +956,12 @@
   "minecraft:recipes/building_blocks/cobblestone_slab": {
     "criteria": {
       "has_cobblestone": "2025-01-03 03:21:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobbled_deepslate_wall_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-01-03 04:24:56 +0000"
     },
     "done": true
   },
@@ -899,6 +1007,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/diamond_pickaxe": {
+    "criteria": {
+      "has_diamond": "2025-01-03 04:24:43 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2025-01-03 03:46:12 +0000",
@@ -929,6 +1043,12 @@
   "minecraft:recipes/combat/golden_chestplate": {
     "criteria": {
       "has_gold_ingot": "2025-01-03 04:06:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_tile_wall_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-01-03 04:24:56 +0000"
     },
     "done": true
   },
@@ -980,6 +1100,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/cobbled_deepslate_wall": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-01-03 04:24:56 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_porkchop_from_smoking": {
     "criteria": {
       "has_porkchop": "2025-01-03 03:19:57 +0000"
@@ -989,6 +1115,12 @@
   "minecraft:recipes/misc/iron_nugget_from_blasting": {
     "criteria": {
       "has_iron_pickaxe": "2025-01-03 03:27:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_deepslate_wall_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-01-03 04:24:56 +0000"
     },
     "done": true
   },
@@ -1004,6 +1136,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/deepslate_bricks_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-01-03 04:24:56 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/smithing_table": {
     "criteria": {
       "has_iron_ingot": "2025-01-03 03:26:45 +0000"
@@ -1013,6 +1151,12 @@
   "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2025-01-03 03:21:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diamond_block": {
+    "criteria": {
+      "has_diamond": "2025-01-03 04:24:43 +0000"
     },
     "done": true
   },
@@ -1068,9 +1212,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/deepslate_tiles_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-01-03 04:24:56 +0000"
+    },
+    "done": true
+  },
   "minecraft:husbandry/root": {
     "criteria": {
       "consumed_item": "2025-01-03 03:08:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobbled_deepslate_stairs_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-01-03 04:24:56 +0000"
     },
     "done": true
   },
@@ -1086,9 +1242,39 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/diamond_hoe": {
+    "criteria": {
+      "has_diamond": "2025-01-03 04:24:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_shovel": {
+    "criteria": {
+      "has_diamond": "2025-01-03 04:24:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-01-03 04:24:56 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/spruce_stairs": {
     "criteria": {
       "has_planks": "2025-01-03 03:10:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2025-01-03 04:24:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_axe": {
+    "criteria": {
+      "has_diamond": "2025-01-03 04:24:43 +0000"
     },
     "done": true
   },
@@ -1119,6 +1305,12 @@
   "minecraft:recipes/building_blocks/spruce_slab": {
     "criteria": {
       "has_planks": "2025-01-03 03:10:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate_stairs_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-01-03 04:24:56 +0000"
     },
     "done": true
   },
@@ -1167,6 +1359,12 @@
   "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
     "criteria": {
       "has_beef": "2025-01-03 03:08:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_boots": {
+    "criteria": {
+      "has_diamond": "2025-01-03 04:24:43 +0000"
     },
     "done": true
   },

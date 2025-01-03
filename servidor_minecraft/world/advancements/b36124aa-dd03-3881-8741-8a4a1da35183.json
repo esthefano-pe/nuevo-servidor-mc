@@ -41,9 +41,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/copper_ingot_from_blasting_raw_copper": {
+    "criteria": {
+      "has_raw_copper": "2025-01-03 04:22:24 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dark_oak_fence_gate": {
     "criteria": {
       "has_planks": "2025-01-03 04:16:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_copper_block": {
+    "criteria": {
+      "has_raw_copper": "2025-01-03 04:22:24 +0000"
     },
     "done": true
   },
@@ -134,6 +146,12 @@
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
       "unlock_right_away": "2025-01-03 04:10:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2025-01-03 04:21:39 +0000"
     },
     "done": true
   },
@@ -278,6 +296,12 @@
   "minecraft:recipes/redstone/dark_oak_pressure_plate": {
     "criteria": {
       "has_planks": "2025-01-03 04:16:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_smelting_raw_copper": {
+    "criteria": {
+      "has_raw_copper": "2025-01-03 04:22:24 +0000"
     },
     "done": true
   },
