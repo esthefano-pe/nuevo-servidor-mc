@@ -1,7 +1,19 @@
 [
   {
+    "uuid": "84ef5069-ace0-3a20-a670-51a3cb94662c",
+    "name": "_JoSeP_05",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "d928339c-a47f-3789-9e04-17119003d19d",
     "name": "G4MM4___",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "6df38626-8a68-3dcd-b611-79394f9f2cd5",
+    "name": "Jdegoeberen",
     "level": 4,
     "bypassesPlayerLimit": false
   }
