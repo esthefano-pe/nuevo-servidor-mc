@@ -147,3 +147,12 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 [01:14:54] [Server thread/INFO]: _JoSeP_05 issued server command: /gamemode creative
 [01:14:54] [Server thread/INFO]: [_JoSeP_05: Set own game mode to Creative Mode]
 [01:14:56] [Server thread/INFO]: Jdegoeberen issued server command: //
+[01:21:19] [Server thread/INFO]: _JoSeP_05 issued server command: /kill
+[01:21:19] [Server thread/INFO]: [_JoSeP_05: Killed _JoSeP_05]
+[01:21:26] [Server thread/INFO]: _JoSeP_05 issued server command: /kill
+[01:21:57] [Server thread/INFO]: _JoSeP_05 issued server command: /gamemode 0
+[01:22:01] [Server thread/INFO]: _JoSeP_05 issued server command: /gamemode survival
+[01:22:01] [Server thread/INFO]: [_JoSeP_05: Set own game mode to Survival Mode]
+[01:22:04] [Server thread/INFO]: The player _JoSeP_05 bled out.
+[01:22:30] [Server thread/INFO]: _JoSeP_05 issued server command: /gamemode creative
+[01:22:30] [Server thread/INFO]: [_JoSeP_05: Set own game mode to Creative Mode]
