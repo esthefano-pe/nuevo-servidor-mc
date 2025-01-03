@@ -156,3 +156,23 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 [01:22:04] [Server thread/INFO]: The player _JoSeP_05 bled out.
 [01:22:30] [Server thread/INFO]: _JoSeP_05 issued server command: /gamemode creative
 [01:22:30] [Server thread/INFO]: [_JoSeP_05: Set own game mode to Creative Mode]
+[01:30:38] [Server thread/INFO]: Jdegoeberen issued server command: /time set night
+[01:30:38] [Server thread/INFO]: [Jdegoeberen: Set the time to 13000]
+[01:32:02] [Server thread/INFO]: Jdegoeberen issued server command: /scoreboard
+[01:33:00] [Server thread/INFO]: Jdegoeberen issued server command: /scoreboard objectives add vida health
+[01:33:00] [Server thread/INFO]: [Jdegoeberen: Created new objective [vida]]
+[01:33:44] [Server thread/INFO]: Jdegoeberen issued server command: /scoreboard objectives setdisplay list vida
+[01:33:44] [Server thread/INFO]: [Jdegoeberen: Set display slot list to show objective vida]
+[01:34:16] [Server thread/INFO]: _JoSeP_05 issued server command: /gamemode survival
+[01:34:16] [Server thread/INFO]: [_JoSeP_05: Set own game mode to Survival Mode]
+[01:34:22] [Server thread/INFO]: _JoSeP_05 issued server command: /gamemode survival
+[01:34:23] [Server thread/INFO]: Jdegoeberen issued server command: /gamemode survival
+[01:34:23] [Server thread/INFO]: [Jdegoeberen: Set own game mode to Survival Mode]
+[01:34:24] [Server thread/INFO]: _JoSeP_05 issued server command: /gamemode creative
+[01:34:24] [Server thread/INFO]: [_JoSeP_05: Set own game mode to Creative Mode]
+[01:34:31] [Server thread/INFO]: Jdegoeberen issued server command: /gamemode creative
+[01:34:31] [Server thread/INFO]: [Jdegoeberen: Set own game mode to Creative Mode]
+[01:36:20] [Server thread/INFO]: Jdegoeberen issued server command: /scoreboard objectives add muertes deathCount "Muertes"
+[01:36:20] [Server thread/INFO]: [Jdegoeberen: Created new objective [Muertes]]
+[01:36:45] [Server thread/INFO]: Jdegoeberen issued server command: /scoreboard objectives setdisplay sidebar muertes
+[01:36:45] [Server thread/INFO]: [Jdegoeberen: Set display slot sidebar to show objective Muertes]
