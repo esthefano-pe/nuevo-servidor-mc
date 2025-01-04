@@ -164,3 +164,6 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 [03:28:04] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Spigot: v1_20_R1! Trying to find NMS support
 [03:28:04] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_20_R1' loaded!
 [03:28:04] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'MTVehicles' to create a bStats instance!
+[03:43:11] [Server thread/INFO]: Sir_Ju4ncitox died
+[03:50:36] [Server thread/INFO]: Sir_Ju4ncitox lost connection: Disconnected
+[03:50:36] [Server thread/INFO]: Sir_Ju4ncitox left the game
