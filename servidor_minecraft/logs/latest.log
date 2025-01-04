@@ -1,21 +1,21 @@
-[03:02:48] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[03:02:51] [ServerMain/INFO]: Loaded 7 recipes
-[03:02:52] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[03:02:52] [Server thread/INFO]: Loading properties
-[03:02:52] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
-[03:02:53] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[03:02:53] [Server thread/INFO]: Using 4 threads for Netty based IO
-[03:02:53] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[03:12:34] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[03:12:36] [ServerMain/INFO]: Loaded 7 recipes
+[03:12:37] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[03:12:37] [Server thread/INFO]: Loading properties
+[03:12:37] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
+[03:12:37] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[03:12:37] [Server thread/INFO]: Using 4 threads for Netty based IO
+[03:12:38] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[03:02:53] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[03:02:54] [Server thread/INFO]: Default game type: SURVIVAL
-[03:02:54] [Server thread/INFO]: Generating keypair
-[03:02:54] [Server thread/INFO]: Starting Minecraft server on *:25565
-[03:02:54] [Server thread/INFO]: Using epoll channel type
-[03:02:54] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[03:02:54] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[03:02:54] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load 'plugins/BetterStructures.jar' in 'plugins'
+[03:12:38] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[03:12:38] [Server thread/INFO]: Default game type: SURVIVAL
+[03:12:38] [Server thread/INFO]: Generating keypair
+[03:12:38] [Server thread/INFO]: Starting Minecraft server on *:25565
+[03:12:38] [Server thread/INFO]: Using epoll channel type
+[03:12:38] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[03:12:38] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[03:12:38] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load 'plugins/BetterStructures.jar' in 'plugins'
 org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins: [WorldEdit]. Please download and install these plugins to run 'BetterStructures'.
 	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:82) ~[paper-1.20.1.jar:git-Paper-196]
 	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:39) ~[paper-1.20.1.jar:git-Paper-196]
@@ -25,10 +25,10 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1100) ~[paper-1.20.1.jar:git-Paper-196]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
 	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[03:02:55] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Initializing Terra...
-[03:02:55] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Loading config.yml
-[03:02:55] [Server thread/INFO]: [com.dfsek.terra.config.PluginConfigImpl] Loading config values from config.yml
-[03:02:56] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Loading 35 Terra addons:
+[03:12:39] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Initializing Terra...
+[03:12:39] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Loading config.yml
+[03:12:39] [Server thread/INFO]: [com.dfsek.terra.config.PluginConfigImpl] Loading config values from config.yml
+[03:12:39] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Loading 35 Terra addons:
         - biome-provider-extrusion@1.0.0-BETA+73baaec6c
         - biome-provider-image@1.0.0-BETA+73baaec6c
         - biome-provider-image-v2@1.0.0-BETA+73baaec6c
@@ -64,385 +64,99 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
         - terra@1.0.0
         - terra-bukkit@1.0.0
         - terrascript-function-sampler@1.0.0-BETA+73baaec6c
-[03:02:56] [Server thread/WARN]: [com.dfsek.terra.addons.biome.pipeline.BiomePipelineAddon] The biome-provider-pipeline addon is deprecated and scheduled for removal in Terra 7.0. It is recommended to use the biome-provider-pipeline-v2 addon for future pack development instead.
-[03:02:56] [Server thread/WARN]: [com.dfsek.terra.addons.biome.image.ImageBiomeProviderAddon] The biome-provider-image addon is deprecated and scheduled for removal in Terra 7.0. It is recommended to use the biome-provider-image-v2 addon for future pack development instead.
-[03:02:56] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Terra addons successfully loaded.
-[03:02:56] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Finished initialization.
-[03:02:56] [Server thread/INFO]: [MTVehicles] Loading server plugin MTVehicles v2.5.3
-[03:02:56] [Server thread/INFO]: [FastChunkPregenerator] Loading server plugin FastChunkPregenerator v2.0.9-SNAPSHOT
-[03:02:56] [Server thread/INFO]: [Revive] Loading server plugin Revive v3.2 | 1.20
-[03:02:56] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.5.1
-[03:02:56] [Server thread/INFO]: [BlockLocker] Loading server plugin BlockLocker v1.13
-[03:02:56] [Server thread/INFO]: [Terra] Loading server plugin Terra v6.3.1-BETA+73baaec6c
-[03:02:56] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[03:02:56] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.1
-[03:02:57] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
-[03:02:57] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.1.
-[03:02:58] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[03:02:58] [Server thread/WARN]: [SkinsRestorer] Please update your Java runtime to at least Java 21 (your version is 17).
-[03:02:58] [Server thread/WARN]: [SkinsRestorer] At some point in the future, SkinsRestorer will no longer be compatible with this version of Java.
-[03:02:58] [Server thread/INFO]: [BlockLocker] Enabling BlockLocker v1.13
-[03:02:58] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_20_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[03:02:58] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[03:02:58] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[03:02:58] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[03:02:58] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[03:02:58] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[03:02:58] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[03:02:58] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[03:02:58] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.5.1
-[03:02:58] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: d5d8613
-[03:02:58] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[03:02:58] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[03:02:58] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[03:02:58] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[03:03:02] [Server thread/WARN]: [BlockLocker] Cannot recognize material crafter, ignoring it
-[03:03:02] [Server thread/WARN]: [BlockLocker] Cannot recognize material copper_door, ignoring it
-[03:03:02] [Server thread/WARN]: [BlockLocker] Cannot recognize material exposed_copper_door, ignoring it
-[03:03:02] [Server thread/WARN]: [BlockLocker] Cannot recognize material oxidized_copper_door, ignoring it
-[03:03:02] [Server thread/WARN]: [BlockLocker] Cannot recognize material pale_oak_door, ignoring it
-[03:03:02] [Server thread/WARN]: [BlockLocker] Cannot recognize material waxed_copper_door, ignoring it
-[03:03:02] [Server thread/WARN]: [BlockLocker] Cannot recognize material waxed_exposed_copper_door, ignoring it
-[03:03:02] [Server thread/WARN]: [BlockLocker] Cannot recognize material waxed_oxidized_copper_door, ignoring it
-[03:03:02] [Server thread/WARN]: [BlockLocker] Cannot recognize material waxed_weathered_copper_door, ignoring it
-[03:03:02] [Server thread/WARN]: [BlockLocker] Cannot recognize material weathered_copper_door, ignoring it
-[03:03:02] [Server thread/WARN]: [BlockLocker] Cannot recognize material copper_trapdoor, ignoring it
-[03:03:02] [Server thread/WARN]: [BlockLocker] Cannot recognize material exposed_copper_trapdoor, ignoring it
-[03:03:02] [Server thread/WARN]: [BlockLocker] Cannot recognize material oxidized_copper_trapdoor, ignoring it
-[03:03:02] [Server thread/WARN]: [BlockLocker] Cannot recognize material pale_oak_fence_gate, ignoring it
-[03:03:02] [Server thread/WARN]: [BlockLocker] Cannot recognize material pale_oak_trapdoor, ignoring it
-[03:03:02] [Server thread/WARN]: [BlockLocker] Cannot recognize material weathered_copper_trapdoor, ignoring it
-[03:03:02] [Server thread/WARN]: [BlockLocker] Cannot recognize material waxed_copper_trapdoor, ignoring it
-[03:03:02] [Server thread/WARN]: [BlockLocker] Cannot recognize material waxed_exposed_copper_trapdoor, ignoring it
-[03:03:02] [Server thread/WARN]: [BlockLocker] Cannot recognize material waxed_weathered_copper_trapdoor, ignoring it
-[03:03:02] [Server thread/WARN]: [BlockLocker] Cannot recognize material waxed_oxidized_copper_trapdoor, ignoring it
-[03:03:02] [Server thread/INFO]: [Terra] Enabling Terra v6.3.1-BETA+73baaec6c
-[03:03:02] [Server thread/INFO]: [com.dfsek.terra.bukkit.TerraBukkitPlugin] Running on Minecraft version v1.20.1 with server implementation Paper.
-[03:03:02] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Loading config packs...
-[03:03:02] [Server thread/INFO]: [com.dfsek.terra.registry.master.ConfigRegistry] Loading ZIP archive: default.zip
-[03:03:03] [Server thread/INFO]: [com.dfsek.terra.config.pack.ConfigPackImpl] Loading config pack "OVERWORLD:OVERWORLD"
-[03:03:05] [Server thread/INFO]: [com.dfsek.terra.config.pack.ConfigPackImpl] Loaded config pack "OVERWORLD:OVERWORLD" v1.3.3 by Astrash, Sancires, Aureus in 2559.542478ms.
-[03:03:05] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Loaded packs.
-[03:03:05] [Server thread/INFO]: [com.dfsek.terra.bukkit.nms.v1_20_R1.AwfulBukkitHacks] Hacking biome registry...
-[03:03:06] [Server thread/INFO]: [com.dfsek.terra.bukkit.nms.v1_20_R1.AwfulBukkitHacks] Doing tag garbage....
-[03:03:06] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[03:03:06] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[03:03:06] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[03:03:06] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[03:03:06] [Server thread/INFO]: Preparing level "world"
-[03:03:06] [Server thread/INFO]: [com.dfsek.terra.bukkit.nms.v1_20_R1.NMSInjectListener] Preparing to take over the world: world
-[03:03:06] [Server thread/INFO]: [com.dfsek.terra.bukkit.nms.v1_20_R1.NMSInjectListener] Successfully injected into world.
-[03:03:06] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[03:03:06] [Server thread/INFO]: Time elapsed: 219 ms
-[03:03:06] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[03:03:06] [Server thread/INFO]: Time elapsed: 91 ms
-[03:03:06] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[03:03:06] [Server thread/INFO]: Time elapsed: 58 ms
-[03:03:06] [Server thread/INFO]: [MTVehicles] Enabling MTVehicles v2.5.3
-[03:03:06] [Server thread/INFO]: [MTVehicles] Plugin has been loaded!
-[03:03:06] [Server thread/INFO]: [MTVehicles] --------------------------
-[03:03:06] [Server thread/INFO]: [MTVehicles] Welcome by MTVehicles v2.5.3!
-[03:03:06] [Server thread/INFO]: [MTVehicles] Thanks for using our plugin.
-[03:03:06] [Server thread/INFO]: [MTVehicles] --------------------------
-[03:03:07] [Server thread/INFO]: [MTVehicles] §7---------------------------------------
-[03:03:07] [Server thread/INFO]: [MTVehicles] A new version of §2MTVehicles§f is available!
-[03:03:07] [Server thread/INFO]: [MTVehicles] We have already released §av2.5.4 §fbut you are still using §cv2.5.3§f!
-[03:03:07] [Server thread/INFO]: [MTVehicles] Use §2/mtv update§f to update! (Don't forget to reload the plugin!)
-[03:03:07] [Server thread/INFO]: [MTVehicles] For more information visit §nhttps://mtvehicles.eu§f!
-[03:03:07] [Server thread/INFO]: [MTVehicles] §7---------------------------------------
-[03:03:07] [Server thread/INFO]: [FastChunkPregenerator] Enabling FastChunkPregenerator v2.0.9-SNAPSHOT
-[03:03:07] [Server thread/INFO]: [FastChunkPregenerator] >> Paper was found.
-[03:03:07] [Server thread/INFO]: [FastChunkPregenerator] >> Async chunk loading support is enabled.
-[03:03:08] [Server thread/INFO]: [Revive] Enabling Revive v3.2 | 1.20
-[03:03:08] [Server thread/INFO]: Running delayed init tasks
-[03:03:08] [Server thread/INFO]: Done (16.338s)! For help, type "help"
-[03:03:08] [Server thread/INFO]: Timings Reset
-[03:04:56] [User Authenticator #0/INFO]: UUID of player _JoSeP_05 is 84ef5069-ace0-3a20-a670-51a3cb94662c
-[03:04:56] [Server thread/INFO]: _JoSeP_05 joined the game
-[03:04:56] [Server thread/INFO]: _JoSeP_05[/127.12.220.238:40993] logged in with entity id 193 at ([world]-16.83493242135261, 63.0, 27.494361319799694)
-[03:05:11] [Server thread/INFO]: [Not Secure] [Server] ahorita entro papu
-[03:05:16] [Async Chat Thread - #1/INFO]: [Not Secure] <_JoSeP_05> :v
-[03:07:07] [User Authenticator #1/INFO]: UUID of player Jdegoeberen is 6df38626-8a68-3dcd-b611-79394f9f2cd5
-[03:07:07] [Server thread/INFO]: Jdegoeberen joined the game
-[03:07:07] [Server thread/INFO]: Jdegoeberen[/127.37.193.236:56237] logged in with entity id 536 at ([world]-16.557716373934696, 63.0, 27.82754735599313)
-[03:07:13] [User Authenticator #1/INFO]: UUID of player jAre is 6f2e1adf-f30f-3b59-8ce9-d1f77048bb4f
-[03:07:13] [Server thread/INFO]: jAre joined the game
-[03:07:13] [Server thread/INFO]: jAre[/127.168.137.227:42797] logged in with entity id 545 at ([world]-22.5, 63.0, 30.5)
-[03:07:19] [Async Chat Thread - #2/INFO]: [Not Secure] <Jdegoeberen> hola
-[03:07:33] [Async Chat Thread - #3/INFO]: [Not Secure] <jAre> ola
-[03:07:38] [Async Chat Thread - #2/INFO]: [Not Secure] <Jdegoeberen> soy una vaca
-[03:07:44] [Async Chat Thread - #3/INFO]: [Not Secure] <jAre> xd
-[03:07:48] [Async Chat Thread - #2/INFO]: [Not Secure] <_JoSeP_05> te puedo sacar leche?
-[03:07:49] [Async Chat Thread - #3/INFO]: [Not Secure] <Jdegoeberen> a jugar pe
-[03:07:52] [Async Chat Thread - #2/INFO]: [Not Secure] <Jdegoeberen> bro?
-[03:07:57] [Async Chat Thread - #3/INFO]: [Not Secure] <_JoSeP_05> bro?
-[03:08:07] [Server thread/INFO]: Jdegoeberen issued server command: /difficulty hard
-[03:08:07] [Server thread/INFO]: [Jdegoeberen: The difficulty has been set to Hard]
-[03:08:32] [Async Chat Thread - #2/INFO]: [Not Secure] <_JoSeP_05> puedo coger la mdera del puente?
-[03:08:33] [Server thread/INFO]: Jdegoeberen has made the advancement [Monster Hunter]
-[03:08:52] [Server thread/INFO]: jAre has made the advancement [Monster Hunter]
-[03:08:56] [Async Chat Thread - #3/INFO]: [Not Secure] <_JoSeP_05> nono pw
-[03:09:41] [Async Chat Thread - #2/INFO]: [Not Secure] <Jdegoeberen> les hago un puente ? :v
-[03:09:59] [Async Chat Thread - #3/INFO]: [Not Secure] <_JoSeP_05> para?
-[03:10:09] [Async Chat Thread - #2/INFO]: [Not Secure] <Jdegoeberen> para q crucen
-[03:10:14] [Async Chat Thread - #3/INFO]: [Not Secure] <_JoSeP_05> a donde
-[03:10:21] [Async Chat Thread - #2/INFO]: [Not Secure] <Jdegoeberen> a los arboles pe
-[03:10:23] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Spigot: v1_20_R1! Trying to find NMS support
-[03:10:23] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_20_R1' loaded!
-[03:10:23] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'MTVehicles' to create a bStats instance!
-[03:10:39] [Async Chat Thread - #2/INFO]: [Not Secure] <_JoSeP_05> nel
-[03:11:20] [Async Chat Thread - #3/INFO]: [Not Secure] <_JoSeP_05> angel y el distants horizon?
-[03:12:26] [Async Chat Thread - #4/INFO]: [Not Secure] <Jdegoeberen> :'v
-[03:13:16] [Async Chat Thread - #5/INFO]: [Not Secure] <Jdegoeberen> y jared
-[03:13:22] [Async Chat Thread - #4/INFO]: [Not Secure] <_JoSeP_05> se quedo afk
-[03:14:27] [User Authenticator #2/INFO]: UUID of player Sir_Ju4ncitox is 74ce4e69-0f13-31d5-996a-c10c6c5b9e07
-[03:14:27] [Server thread/INFO]: Sir_Ju4ncitox joined the game
-[03:14:27] [Server thread/INFO]: Sir_Ju4ncitox[/127.193.241.115:48725] logged in with entity id 2180 at ([world]-18.5, 71.0, 26.5)
-[03:15:26] [Async Chat Thread - #6/INFO]: [Not Secure] <Jdegoeberen> hola pe
-[03:15:30] [Async Chat Thread - #7/INFO]: [Not Secure] <Sir_Ju4ncitox> hola p
-[03:16:09] [Async Chat Thread - #7/INFO]: [Not Secure] <Jdegoeberen> regalen comida :'v
-[03:16:22] [Async Chat Thread - #6/INFO]: [Not Secure] <_JoSeP_05> donde estas :v
-[03:16:27] [Async Chat Thread - #7/INFO]: [Not Secure] <Jdegoeberen> en mi casa
-[03:16:48] [Async Chat Thread - #6/INFO]: [Not Secure] <Sir_Ju4ncitox> donde estan?
-[03:16:50] [Async Chat Thread - #7/INFO]: [Not Secure] <Jdegoeberen> pasa
-[03:16:54] [Async Chat Thread - #6/INFO]: [Not Secure] <Sir_Ju4ncitox> estoy en el inicio
-[03:17:06] [Async Chat Thread - #7/INFO]: [Not Secure] <Jdegoeberen> -243 66 52
-[03:17:07] [Async Chat Thread - #6/INFO]: [Not Secure] <_JoSeP_05> porque te tepeas
-[03:17:19] [Async Chat Thread - #7/INFO]: [Not Secure] <Sir_Ju4ncitox> .
-[03:17:20] [Async Chat Thread - #6/INFO]: [Not Secure] <Jdegoeberen> no xd
-[03:17:28] [Async Chat Thread - #7/INFO]: [Not Secure] <Sir_Ju4ncitox> -244 66 52
-[03:17:31] [Async Chat Thread - #6/INFO]: [Not Secure] <Jdegoeberen> :'v
-[03:17:37] [Async Chat Thread - #7/INFO]: [Not Secure] <_JoSeP_05> xd
-[03:17:42] [Async Chat Thread - #6/INFO]: [Not Secure] <Jdegoeberen> fue
-[03:18:27] [Server thread/INFO]: The player Jdegoeberen bled out.
-[03:18:32] [Async Chat Thread - #6/INFO]: [Not Secure] <_JoSeP_05> xd
-[03:18:49] [Server thread/INFO]: _JoSeP_05 has made the advancement [Acquire Hardware]
-[03:18:55] [Server thread/INFO]: Sir_Ju4ncitox has made the advancement [Stone Age]
-[03:18:57] [Server thread/INFO]: Jdegoeberen issued server command: /revive reload
-[03:18:57] [Server thread/INFO]: Reloaded Revive Plugin
-[03:19:11] [Async Chat Thread - #7/INFO]: [Not Secure] <Jdegoeberen> hola jare
-[03:19:18] [Async Chat Thread - #6/INFO]: [Not Secure] <Jdegoeberen> vamo
-[03:19:28] [Server thread/INFO]: Sir_Ju4ncitox has made the advancement [Getting an Upgrade]
-[03:20:00] [Async Chat Thread - #7/INFO]: [Not Secure] <Jdegoeberen> OE
-[03:21:31] [Server thread/INFO]: Sir_Ju4ncitox has made the advancement [Monster Hunter]
-[03:21:40] [Async Chat Thread - #8/INFO]: [Not Secure] <Sir_Ju4ncitox> una mina
-[03:21:48] [Server thread/INFO]: Jdegoeberen has made the advancement [Stone Age]
-[03:22:11] [Server thread/INFO]: Jdegoeberen has made the advancement [Getting an Upgrade]
-[03:22:31] [Server thread/INFO]: The player Sir_Ju4ncitox bled out.
-[03:22:32] [Async Chat Thread - #9/INFO]: [Not Secure] <Jdegoeberen> xdd
-[03:22:35] [Async Chat Thread - #8/INFO]: [Not Secure] <_JoSeP_05> xd
-[03:22:39] [Async Chat Thread - #9/INFO]: [Not Secure] <Sir_Ju4ncitox> ctmr
-[03:22:52] [Async Chat Thread - #8/INFO]: [Not Secure] <Sir_Ju4ncitox> no se puedetpare
-[03:23:00] [Async Chat Thread - #9/INFO]: [Not Secure] <Jdegoeberen> ño
-[03:23:21] [Async Chat Thread - #8/INFO]: [Not Secure] <Sir_Ju4ncitox> es en equipo o invididual
-[03:23:28] [Async Chat Thread - #9/INFO]: [Not Secure] <Jdegoeberen> como gustes
-[03:23:32] [Async Chat Thread - #8/INFO]: [Not Secure] <Jdegoeberen> puedes vivir con qn gustes
-[03:23:40] [Async Chat Thread - #9/INFO]: [Not Secure] <Sir_Ju4ncitox> ya oue
-[03:23:47] [Async Chat Thread - #8/INFO]: [Not Secure] <Jdegoeberen> q entre la wendy pe parra
-[03:23:54] [Async Chat Thread - #9/INFO]: [Not Secure] <Sir_Ju4ncitox> xd?
-[03:24:01] [Async Chat Thread - #8/INFO]: [Not Secure] <Jdegoeberen> pa jugar más gente :;v
-[03:24:57] [Async Chat Thread - #9/INFO]: [Not Secure] <_JoSeP_05> donde esdtas ;-;
-[03:25:07] [Async Chat Thread - #8/INFO]: [Not Secure] <Jdegoeberen> yo toy con Sir_Ju4ncitox
-[03:25:31] [Async Chat Thread - #9/INFO]: [Not Secure] <_JoSeP_05> coordenadas p
-[03:25:40] [Async Chat Thread - #8/INFO]: [Not Secure] <Sir_Ju4ncitox> quiero comida
-[03:25:43] [Async Chat Thread - #9/INFO]: [Not Secure] <Sir_Ju4ncitox> quien tiene
-[03:25:49] [Async Chat Thread - #8/INFO]: [Not Secure] <Jdegoeberen> _JoSeP_05 xd
-[03:25:49] [Async Chat Thread - #9/INFO]: [Not Secure] <_JoSeP_05> io
-[03:26:15] [Async Chat Thread - #8/INFO]: [Not Secure] <Sir_Ju4ncitox> go spedd run
-[03:26:45] [Server thread/INFO]: Jdegoeberen has made the advancement [Acquire Hardware]
-[03:27:20] [Server thread/INFO]: Jdegoeberen has made the advancement [Isn't It Iron Pick]
-[03:27:45] [Async Chat Thread - #10/INFO]: [Not Secure] <jAre> dondestann
-[03:27:51] [Async Chat Thread - #11/INFO]: [Not Secure] <Jdegoeberen> en una cueva pe
-[03:28:16] [Async Chat Thread - #10/INFO]: [Not Secure] <jAre> aya
-[03:28:35] [Async Chat Thread - #11/INFO]: [Not Secure] <Jdegoeberen> XD
-[03:28:36] [Async Chat Thread - #10/INFO]: [Not Secure] <_JoSeP_05> xd
-[03:28:58] [Server thread/INFO]: _JoSeP_05 has made the advancement [Monster Hunter]
-[03:29:11] [Server thread/INFO]: _JoSeP_05 has made the advancement [Suit Up]
-[03:29:17] [Server thread/INFO]: The player jAre bled out.
-[03:30:29] [Server thread/INFO]: Sir_Ju4ncitox has made the advancement [Acquire Hardware]
-[03:30:35] [Server thread/INFO]: Sir_Ju4ncitox has made the advancement [Isn't It Iron Pick]
-[03:30:45] [Async Chat Thread - #12/INFO]: [Not Secure] <_JoSeP_05> porque juancito sigue a dos de vida
-[03:30:47] [Async Chat Thread - #13/INFO]: [Not Secure] <_JoSeP_05> :v
-[03:30:56] [Async Chat Thread - #12/INFO]: [Not Secure] <Sir_Ju4ncitox> TMR me voy a morir
-[03:31:00] [Async Chat Thread - #13/INFO]: [Not Secure] <Sir_Ju4ncitox> no hay comida
-[03:31:13] [Async Chat Thread - #12/INFO]: [Not Secure] <Jdegoeberen> tienen madera? :v
-[03:31:17] [Async Chat Thread - #13/INFO]: [Not Secure] <Sir_Ju4ncitox> yo
-[03:31:20] [Async Chat Thread - #12/INFO]: [Not Secure] <_JoSeP_05> io
-[03:31:24] [Async Chat Thread - #13/INFO]: [Not Secure] <Jdegoeberen> pero yo estoy abajo
-[03:31:43] [Async Chat Thread - #12/INFO]: [Not Secure] <_JoSeP_05> estoy en una mina
-[03:31:49] [Async Chat Thread - #13/INFO]: [Not Secure] <Jdegoeberen> yo igual
-[03:31:54] [Async Chat Thread - #12/INFO]: [Not Secure] <_JoSeP_05> donde hay rieles y eso
-[03:33:06] [Server thread/INFO]: Sir_Ju4ncitox has made the advancement [Suit Up]
-[03:33:18] [Async Chat Thread - #14/INFO]: [Not Secure] <Sir_Ju4ncitox> salio el soooooooooooooooooool
-[03:33:27] [Async Chat Thread - #15/INFO]: [Not Secure] <Sir_Ju4ncitox> cuerpo bronceado
-[03:33:37] [Async Chat Thread - #14/INFO]: [Not Secure] <Jdegoeberen> xd
-[03:35:11] [Async Chat Thread - #16/INFO]: [Not Secure] <Jdegoeberen> buena jared
-[03:35:16] [Async Chat Thread - #17/INFO]: [Not Secure] <_JoSeP_05> me quiere ganar
-[03:35:25] [Server thread/INFO]: The player jAre bled out.
-[03:35:30] [Async Chat Thread - #16/INFO]: [Not Secure] <Sir_Ju4ncitox> como se cura
-[03:35:38] [Async Chat Thread - #17/INFO]: [Not Secure] <Jdegoeberen> dandole una de arena
-[03:35:46] [Async Chat Thread - #16/INFO]: [Not Secure] <Jdegoeberen> antes era una manzana dorada, pero muy caro xd
-[03:35:58] [Async Chat Thread - #17/INFO]: [Not Secure] <Jdegoeberen> quizás en unos días lo cambie por manzana dorada, pero ahora es complicado conseguir
-[03:36:21] [Async Chat Thread - #16/INFO]: [Not Secure] <Sir_Ju4ncitox> no osea
-[03:36:35] [Async Chat Thread - #17/INFO]: [Not Secure] <Sir_Ju4ncitox> cuando alguien esta en knocked
-[03:36:51] [Async Chat Thread - #16/INFO]: [Not Secure] <Jdegoeberen> le das uno de arena
-[03:36:53] [Async Chat Thread - #17/INFO]: [Not Secure] <Jdegoeberen> y lo revives
-[03:36:56] [Async Chat Thread - #16/INFO]: [Not Secure] <Jdegoeberen> click derecho
-[03:36:57] [Async Chat Thread - #17/INFO]: [Not Secure] <Sir_Ju4ncitox> ayaa
-[03:37:01] [Async Chat Thread - #16/INFO]: [Not Secure] <Jdegoeberen> con uno de arena
-[03:37:09] [Async Chat Thread - #17/INFO]: [Not Secure] <Sir_Ju4ncitox> mejor con filete
-[03:37:12] [Async Chat Thread - #16/INFO]: [Not Secure] <Sir_Ju4ncitox> pero todavia p
-[03:37:42] [Async Chat Thread - #17/INFO]: [Not Secure] <Sir_Ju4ncitox> es todo contra todos?
-[03:37:49] [Async Chat Thread - #18/INFO]: [Not Secure] <Jdegoeberen> survival nomas
-[03:39:21] [Server thread/INFO]: Jdegoeberen has made the advancement [Sneak 100]
-[03:40:00] [Server thread/WARN]: Jdegoeberen moved too quickly! 5.46459012466633,-1.0968727523255097,-13.382676109573291
-[03:40:08] [Async Chat Thread - #19/INFO]: [Not Secure] <_JoSeP_05> tengo zona de warden ;-;
-[03:46:01] [Async Chat Thread - #21/INFO]: [Not Secure] <Sir_Ju4ncitox> q capa el diamante?
-[03:46:04] [Server thread/INFO]: _JoSeP_05 has made the advancement [Isn't It Iron Pick]
-[03:46:07] [Server thread/INFO]: Jdegoeberen has made the advancement [Not Today, Thank You]
-[03:46:44] [Async Chat Thread - #22/INFO]: [Not Secure] <Sir_Ju4ncitox> oigan
-[03:46:50] [Async Chat Thread - #21/INFO]: [Not Secure] <Sir_Ju4ncitox> q capa esta el diamantae
-[03:48:09] [User Authenticator #3/INFO]: UUID of player Vngel02 is 22b6a2cb-d0b0-3b0e-a272-71b4b715c2f0
-[03:48:09] [Server thread/INFO]: Vngel02 joined the game
-[03:48:09] [Server thread/INFO]: Vngel02[/127.168.137.227:50465] logged in with entity id 13108 at ([world]-13.5, 71.0, 27.5)
-[03:48:10] [Async Chat Thread - #23/INFO]: [Not Secure] <Sir_Ju4ncitox> huevonnn
-[03:48:17] [Async Chat Thread - #24/INFO]: [Not Secure] <Jdegoeberen> no tengo na
-[03:48:17] [Async Chat Thread - #23/INFO]: [Not Secure] <Sir_Ju4ncitox> en zona guarden
-[03:48:36] [Server thread/INFO]: Vngel02 lost connection: Disconnected
-[03:48:36] [Server thread/INFO]: Vngel02 left the game
-[03:50:13] [Server thread/INFO]: Jdegoeberen has made the advancement [Suit Up]
-[03:50:43] [Async Chat Thread - #25/INFO]: [Not Secure] <Sir_Ju4ncitox> oigannn
-[03:50:51] [Async Chat Thread - #26/INFO]: [Not Secure] <Jdegoeberen> q fue
-[03:50:52] [Async Chat Thread - #25/INFO]: [Not Secure] <Sir_Ju4ncitox> encontre una ancient city
-[03:50:58] [Async Chat Thread - #26/INFO]: [Not Secure] <Jdegoeberen> mano no quiero morir
-[03:51:03] [Async Chat Thread - #25/INFO]: [Not Secure] <Sir_Ju4ncitox> y diamante
-[03:51:08] [Async Chat Thread - #26/INFO]: [Not Secure] <_JoSeP_05> estamos cerca entonces xd
-[03:51:16] [Async Chat Thread - #25/INFO]: [Not Secure] <_JoSeP_05> yo tambien estoy en una
-[03:51:17] [Server thread/INFO]: Sir_Ju4ncitox has made the advancement [Diamonds!]
-[03:51:21] [Async Chat Thread - #26/INFO]: [Not Secure] <Sir_Ju4ncitox> vamos
-[03:51:28] [Async Chat Thread - #26/INFO]: [Not Secure] <Sir_Ju4ncitox> concha se ve grande
-[03:51:32] [Async Chat Thread - #25/INFO]: [Not Secure] <_JoSeP_05> pera hago una cama ;-;
-[03:52:54] [Server thread/INFO]: _JoSeP_05 has made the advancement [Sweet Dreams]
-[03:53:01] [Async Chat Thread - #27/INFO]: [Not Secure] <Sir_Ju4ncitox> te veo
-[03:53:39] [Async Chat Thread - #28/INFO]: [Not Secure] <Jdegoeberen> pq no hay animales
-[03:53:40] [Async Chat Thread - #27/INFO]: [Not Secure] <Jdegoeberen> carajo
-[03:53:47] [Async Chat Thread - #28/INFO]: [Not Secure] <_JoSeP_05> xd
-[03:53:50] [Async Chat Thread - #27/INFO]: [Not Secure] <_JoSeP_05> susto men
-[03:53:55] [Async Chat Thread - #28/INFO]: [Not Secure] <Sir_Ju4ncitox> mira
-[03:53:57] [Async Chat Thread - #29/INFO]: [Not Secure] <Sir_Ju4ncitox> ven
-[03:54:02] [Async Chat Thread - #28/INFO]: [Not Secure] <Jdegoeberen> jAre
-[03:54:04] [Async Chat Thread - #29/INFO]: [Not Secure] <Jdegoeberen> donde estas
-[03:54:05] [Async Chat Thread - #28/INFO]: [Not Secure] <Sir_Ju4ncitox> tengo 6 no mas
-[03:54:10] [Async Chat Thread - #29/INFO]: [Not Secure] <Sir_Ju4ncitox> ;(
-[03:54:13] [Async Chat Thread - #28/INFO]: [Not Secure] <_JoSeP_05> xd
-[03:54:21] [Async Chat Thread - #29/INFO]: [Not Secure] <_JoSeP_05> mira
-[03:54:27] [Async Chat Thread - #28/INFO]: [Not Secure] <_JoSeP_05> xd
-[03:54:32] [Async Chat Thread - #29/INFO]: [Not Secure] <Sir_Ju4ncitox> ou
-[03:54:34] [Async Chat Thread - #28/INFO]: [Not Secure] <Sir_Ju4ncitox> janjdfaf
-[03:54:38] [Async Chat Thread - #28/INFO]: [Not Secure] <Sir_Ju4ncitox> oe
-[03:54:40] [Async Chat Thread - #29/INFO]: [Not Secure] <Sir_Ju4ncitox> aqui esta
-[03:54:43] [Async Chat Thread - #28/INFO]: [Not Secure] <Sir_Ju4ncitox> el ancient
-[03:54:47] [Async Chat Thread - #28/INFO]: [Not Secure] <_JoSeP_05> see
-[03:55:51] [Async Chat Thread - #30/INFO]: [Not Secure] <_JoSeP_05> farmea diamante
-[03:57:10] [Async Chat Thread - #32/INFO]: [Not Secure] <_JoSeP_05> porque en la ancient city no hay warden .v
-[03:57:18] [Async Chat Thread - #33/INFO]: [Not Secure] <Sir_Ju4ncitox> no se
-[03:57:20] [Server thread/INFO]: Jdegoeberen issued server command: /difficulty hard
-[03:57:24] [Async Chat Thread - #32/INFO]: [Not Secure] <Jdegoeberen> qe
-[03:57:29] [Async Chat Thread - #33/INFO]: [Not Secure] <_JoSeP_05> bueno mejor xd+
-[03:57:43] [Server thread/INFO]: _JoSeP_05 has made the advancement [Sneak 100]
-[03:57:55] [Server thread/INFO]: Sir_Ju4ncitox has made the advancement [Sneak 100]
-[03:59:50] [Async Chat Thread - #34/INFO]: [Not Secure] <Sir_Ju4ncitox> warden aqui
-[04:00:05] [Async Chat Thread - #35/INFO]: [Not Secure] <_JoSeP_05> que ;-;
-[04:00:11] [Async Chat Thread - #34/INFO]: [Not Secure] <Jdegoeberen> q fue
-[04:00:21] [Async Chat Thread - #35/INFO]: [Not Secure] <Sir_Ju4ncitox> necesitamos lana
-[04:01:48] [Async Chat Thread - #36/INFO]: [Not Secure] <_JoSeP_05> tmreee
-[04:02:00] [Async Chat Thread - #37/INFO]: [Not Secure] <Sir_Ju4ncitox> q fue
-[04:02:04] [Async Chat Thread - #36/INFO]: [Not Secure] <_JoSeP_05> ayudaa
-[04:02:08] [Async Chat Thread - #36/INFO]: [Not Secure] <Jdegoeberen> q se muera
-[04:02:12] [Async Chat Thread - #37/INFO]: [Not Secure] <Sir_Ju4ncitox> q
-[04:02:35] [Async Chat Thread - #36/INFO]: [Not Secure] <_JoSeP_05> zorra
-[04:02:43] [Async Chat Thread - #36/INFO]: [Not Secure] <Jdegoeberen> jAre donde estas
-[04:03:04] [Server thread/INFO]: The player _JoSeP_05 bled out.
-[04:03:07] [Async Chat Thread - #37/INFO]: [Not Secure] <Jdegoeberen> XD
-[04:03:58] [Async Chat Thread - #36/INFO]: [Not Secure] <_JoSeP_05> angel
-[04:04:03] [Async Chat Thread - #38/INFO]: [Not Secure] <Jdegoeberen> q
-[04:04:07] [Async Chat Thread - #36/INFO]: [Not Secure] <_JoSeP_05> como veo donde mori
-[04:04:23] [Async Chat Thread - #38/INFO]: [Not Secure] <Jdegoeberen> :V
-[04:04:26] [Async Chat Thread - #38/INFO]: [Not Secure] <Jdegoeberen> ni se
-[04:04:52] [Async Chat Thread - #38/INFO]: [Not Secure] <_JoSeP_05> admin de mrd
-[04:04:55] [Async Chat Thread - #38/INFO]: [Not Secure] <Jdegoeberen> XD
-[04:05:00] [Async Chat Thread - #36/INFO]: [Not Secure] <Jdegoeberen> pero tu mismo ves las coords
-[04:05:14] [Async Chat Thread - #38/INFO]: [Not Secure] <_JoSeP_05> :v
-[04:05:18] [Async Chat Thread - #36/INFO]: [Not Secure] <_JoSeP_05> si di
-[04:06:24] [Async Chat Thread - #39/INFO]: [Not Secure] <_JoSeP_05> lo tengooo
-[04:06:28] [Async Chat Thread - #39/INFO]: [Not Secure] <Jdegoeberen> q cosa
-[04:06:38] [Async Chat Thread - #40/INFO]: [Not Secure] <_JoSeP_05> mis cosas p
-[04:10:23] [Server thread/INFO]: _JoSeP_05 has made the advancement [Cover Me with Diamonds]
-[04:10:30] [Async Chat Thread - #41/INFO]: [Not Secure] <Jdegoeberen> asu
-[04:10:33] [Server thread/INFO]: Sir_Ju4ncitox has made the advancement [Cover Me with Diamonds]
-[04:10:43] [Async Chat Thread - #42/INFO]: [Not Secure] <_JoSeP_05> :v
-[04:10:48] [User Authenticator #4/INFO]: UUID of player zhxg4by is b36124aa-dd03-3881-8741-8a4a1da35183
-[04:10:48] [Server thread/INFO]: zhxg4by joined the game
-[04:10:48] [Server thread/INFO]: zhxg4by[/127.221.22.55:50375] logged in with entity id 23319 at ([world]-18.5, 63.0, 19.5)
-[04:10:53] [Async Chat Thread - #41/INFO]: [Not Secure] <Jdegoeberen> y ese
-[04:11:04] [Async Chat Thread - #41/INFO]: [Not Secure] <jAre> es gabito
-[04:11:21] [Async Chat Thread - #43/INFO]: [Not Secure] <zhxg4by> quien e gabito
-[04:11:30] [Async Chat Thread - #42/INFO]: [Not Secure] <jAre> tu mma
-[04:11:37] [Async Chat Thread - #43/INFO]: [Not Secure] <zhxg4by> ok
-[04:18:12] [Server thread/INFO]: zhxg4by has made the advancement [Stone Age]
-[04:19:05] [Server thread/INFO]: zhxg4by has made the advancement [Getting an Upgrade]
-[04:20:55] [Async Chat Thread - #44/INFO]: [Not Secure] <Sir_Ju4ncitox> ALGUIEN A VISTO LAVA PARA IR AL NETHER
-[04:21:02] [Async Chat Thread - #45/INFO]: [Not Secure] <Sir_Ju4ncitox> gabi donde estas
-[04:21:05] [Async Chat Thread - #44/INFO]: [Not Secure] <Jdegoeberen> eee
-[04:21:05] [Async Chat Thread - #45/INFO]: [Not Secure] <Sir_Ju4ncitox> ten hierro
-[04:21:06] [Async Chat Thread - #44/INFO]: [Not Secure] <Jdegoeberen> es el gabi
-[04:21:06] [Async Chat Thread - #45/INFO]: [Not Secure] <_JoSeP_05> yop
-[04:21:14] [Async Chat Thread - #44/INFO]: [Not Secure] <zhxg4by> soy la
-[04:21:25] [Async Chat Thread - #45/INFO]: [Not Secure] <jAre> hay otro gab xd
-[04:21:32] [Async Chat Thread - #44/INFO]: [Not Secure] <zhxg4by> a ya
-[04:21:44] [Async Chat Thread - #45/INFO]: [Not Secure] <Jdegoeberen> ahya
-[04:21:46] [Async Chat Thread - #44/INFO]: [Not Secure] <Jdegoeberen> la q dijiste
-[04:21:58] [Server thread/INFO]: jAre has made the advancement [Stone Age]
-[04:22:07] [Server thread/INFO]: Sir_Ju4ncitox lost connection: Disconnected
-[04:22:07] [Server thread/INFO]: Sir_Ju4ncitox left the game
-[04:22:57] [Server thread/INFO]: jAre has made the advancement [Getting an Upgrade]
-[04:23:03] [Server thread/INFO]: _JoSeP_05 has made the advancement [Ice Bucket Challenge]
-[04:23:14] [Async Chat Thread - #46/INFO]: [Not Secure] <Jdegoeberen> A
-[04:23:21] [Async Chat Thread - #47/INFO]: [Not Secure] <_JoSeP_05> :V
-[04:23:32] [Async Chat Thread - #48/INFO]: [Not Secure] <Jdegoeberen> Como q no habia warden oe
-[04:23:58] [Async Chat Thread - #47/INFO]: [Not Secure] <_JoSeP_05> pues quien cree que me mato :v
-[04:24:31] [Server thread/INFO]: jAre has made the advancement [Acquire Hardware]
-[04:24:43] [Server thread/INFO]: Jdegoeberen has made the advancement [Diamonds!]
-[04:25:28] [Server thread/INFO]: jAre has made the advancement [Isn't It Iron Pick]
-[04:28:05] [Async Chat Thread - #49/INFO]: [Not Secure] <_JoSeP_05> bien jare
-[04:28:12] [Async Chat Thread - #49/INFO]: [Not Secure] <jAre> ola
-[04:28:29] [Async Chat Thread - #51/INFO]: [Not Secure] <Jdegoeberen> te encanta morir bro
-[04:28:53] [Server thread/INFO]: The player jAre bled out.
-[04:29:08] [Async Chat Thread - #49/INFO]: [Not Secure] <jAre> ojala en la vida real
-[04:29:14] [Server thread/INFO]: _JoSeP_05 has made the advancement [Hot Stuff]
-[04:29:22] [Server thread/INFO]: zhxg4by lost connection: Disconnected
-[04:29:22] [Server thread/INFO]: zhxg4by left the game
-[04:29:28] [Async Chat Thread - #51/INFO]: [Not Secure] <Jdegoeberen> f cama
-[04:29:44] [Server thread/INFO]: The player jAre bled out.
-[04:29:48] [Async Chat Thread - #49/INFO]: [Not Secure] <Jdegoeberen> xdd
-[04:29:54] [Async Chat Thread - #51/INFO]: [Not Secure] <Jdegoeberen> donde estas jared
-[04:31:46] [Server thread/INFO]: jAre lost connection: Disconnected
-[04:31:46] [Server thread/INFO]: jAre left the game
-[04:34:06] [Async Chat Thread - #52/INFO]: [Not Secure] <_JoSeP_05> solo quedamos dos :v
-[04:34:10] [Async Chat Thread - #52/INFO]: [Not Secure] <Jdegoeberen> uwu
-[04:34:49] [Server thread/INFO]: Jdegoeberen issued server command: /gamemode creative
-[04:34:49] [Server thread/INFO]: [Jdegoeberen: Set own game mode to Creative Mode]
-[04:36:24] [Server thread/INFO]: Jdegoeberen issued server command: /gamemode survival
-[04:36:25] [Server thread/INFO]: [Jdegoeberen: Set own game mode to Survival Mode]
-[04:36:28] [Async Chat Thread - #54/INFO]: [Not Secure] <Jdegoeberen> bueno ya son las 12 chaval
-[04:36:30] [Async Chat Thread - #54/INFO]: [Not Secure] <Jdegoeberen> me retiro
-[04:36:35] [Async Chat Thread - #55/INFO]: [Not Secure] <Jdegoeberen> seguiras o lo apago?
-[04:36:35] [Async Chat Thread - #56/INFO]: [Not Secure] <_JoSeP_05> xd
-[04:36:48] [Async Chat Thread - #54/INFO]: [Not Secure] <_JoSeP_05> dame 10 que voy a hacer mi hueco
-[04:36:56] [Async Chat Thread - #55/INFO]: [Not Secure] <Jdegoeberen> segundos o mintuos
-[04:36:57] [Async Chat Thread - #54/INFO]: [Not Secure] <Jdegoeberen> v:
-[04:37:04] [Async Chat Thread - #55/INFO]: [Not Secure] <_JoSeP_05> minutos p
-[04:37:12] [Async Chat Thread - #55/INFO]: [Not Secure] <Jdegoeberen> yaya
-[04:37:17] [Async Chat Thread - #54/INFO]: [Not Secure] <Jdegoeberen> 10min exactos lo apago
-[04:37:22] [Server thread/INFO]: Jdegoeberen lost connection: Disconnected
-[04:37:22] [Server thread/INFO]: Jdegoeberen left the game
+[03:12:39] [Server thread/WARN]: [com.dfsek.terra.addons.biome.pipeline.BiomePipelineAddon] The biome-provider-pipeline addon is deprecated and scheduled for removal in Terra 7.0. It is recommended to use the biome-provider-pipeline-v2 addon for future pack development instead.
+[03:12:39] [Server thread/WARN]: [com.dfsek.terra.addons.biome.image.ImageBiomeProviderAddon] The biome-provider-image addon is deprecated and scheduled for removal in Terra 7.0. It is recommended to use the biome-provider-image-v2 addon for future pack development instead.
+[03:12:39] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Terra addons successfully loaded.
+[03:12:39] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Finished initialization.
+[03:12:39] [Server thread/INFO]: [MTVehicles] Loading server plugin MTVehicles v2.5.3
+[03:12:39] [Server thread/INFO]: [FastChunkPregenerator] Loading server plugin FastChunkPregenerator v2.0.9-SNAPSHOT
+[03:12:39] [Server thread/INFO]: [Revive] Loading server plugin Revive v3.2 | 1.20
+[03:12:39] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.5.1
+[03:12:39] [Server thread/INFO]: [BlockLocker] Loading server plugin BlockLocker v1.13
+[03:12:39] [Server thread/INFO]: [Terra] Loading server plugin Terra v6.3.1-BETA+73baaec6c
+[03:12:39] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[03:12:39] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.1
+[03:12:40] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[03:12:40] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.1.
+[03:12:41] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[03:12:41] [Server thread/WARN]: [SkinsRestorer] Please update your Java runtime to at least Java 21 (your version is 17).
+[03:12:41] [Server thread/WARN]: [SkinsRestorer] At some point in the future, SkinsRestorer will no longer be compatible with this version of Java.
+[03:12:41] [Server thread/INFO]: [BlockLocker] Enabling BlockLocker v1.13
+[03:12:41] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_20_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[03:12:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[03:12:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[03:12:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[03:12:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[03:12:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[03:12:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[03:12:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[03:12:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.5.1
+[03:12:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: d5d8613
+[03:12:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[03:12:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[03:12:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[03:12:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[03:12:44] [Server thread/WARN]: [BlockLocker] Cannot recognize material crafter, ignoring it
+[03:12:44] [Server thread/WARN]: [BlockLocker] Cannot recognize material copper_door, ignoring it
+[03:12:44] [Server thread/WARN]: [BlockLocker] Cannot recognize material exposed_copper_door, ignoring it
+[03:12:44] [Server thread/WARN]: [BlockLocker] Cannot recognize material oxidized_copper_door, ignoring it
+[03:12:44] [Server thread/WARN]: [BlockLocker] Cannot recognize material pale_oak_door, ignoring it
+[03:12:44] [Server thread/WARN]: [BlockLocker] Cannot recognize material waxed_copper_door, ignoring it
+[03:12:44] [Server thread/WARN]: [BlockLocker] Cannot recognize material waxed_exposed_copper_door, ignoring it
+[03:12:44] [Server thread/WARN]: [BlockLocker] Cannot recognize material waxed_oxidized_copper_door, ignoring it
+[03:12:44] [Server thread/WARN]: [BlockLocker] Cannot recognize material waxed_weathered_copper_door, ignoring it
+[03:12:44] [Server thread/WARN]: [BlockLocker] Cannot recognize material weathered_copper_door, ignoring it
+[03:12:44] [Server thread/WARN]: [BlockLocker] Cannot recognize material copper_trapdoor, ignoring it
+[03:12:44] [Server thread/WARN]: [BlockLocker] Cannot recognize material exposed_copper_trapdoor, ignoring it
+[03:12:44] [Server thread/WARN]: [BlockLocker] Cannot recognize material oxidized_copper_trapdoor, ignoring it
+[03:12:44] [Server thread/WARN]: [BlockLocker] Cannot recognize material pale_oak_fence_gate, ignoring it
+[03:12:44] [Server thread/WARN]: [BlockLocker] Cannot recognize material pale_oak_trapdoor, ignoring it
+[03:12:44] [Server thread/WARN]: [BlockLocker] Cannot recognize material weathered_copper_trapdoor, ignoring it
+[03:12:44] [Server thread/WARN]: [BlockLocker] Cannot recognize material waxed_copper_trapdoor, ignoring it
+[03:12:44] [Server thread/WARN]: [BlockLocker] Cannot recognize material waxed_exposed_copper_trapdoor, ignoring it
+[03:12:44] [Server thread/WARN]: [BlockLocker] Cannot recognize material waxed_weathered_copper_trapdoor, ignoring it
+[03:12:44] [Server thread/WARN]: [BlockLocker] Cannot recognize material waxed_oxidized_copper_trapdoor, ignoring it
+[03:12:44] [Server thread/INFO]: [Terra] Enabling Terra v6.3.1-BETA+73baaec6c
+[03:12:44] [Server thread/INFO]: [com.dfsek.terra.bukkit.TerraBukkitPlugin] Running on Minecraft version v1.20.1 with server implementation Paper.
+[03:12:44] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Loading config packs...
+[03:12:44] [Server thread/INFO]: [com.dfsek.terra.registry.master.ConfigRegistry] Loading ZIP archive: default.zip
+[03:12:45] [Server thread/INFO]: [com.dfsek.terra.config.pack.ConfigPackImpl] Loading config pack "OVERWORLD:OVERWORLD"
+[03:12:47] [Server thread/INFO]: [com.dfsek.terra.config.pack.ConfigPackImpl] Loaded config pack "OVERWORLD:OVERWORLD" v1.3.3 by Astrash, Sancires, Aureus in 2619.066295ms.
+[03:12:47] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Loaded packs.
+[03:12:47] [Server thread/INFO]: [com.dfsek.terra.bukkit.nms.v1_20_R1.AwfulBukkitHacks] Hacking biome registry...
+[03:12:48] [Server thread/INFO]: [com.dfsek.terra.bukkit.nms.v1_20_R1.AwfulBukkitHacks] Doing tag garbage....
+[03:12:48] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[03:12:48] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[03:12:48] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[03:12:48] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[03:12:48] [Server thread/INFO]: Preparing level "world"
+[03:12:48] [Server thread/INFO]: [com.dfsek.terra.bukkit.nms.v1_20_R1.NMSInjectListener] Preparing to take over the world: world
+[03:12:48] [Server thread/INFO]: [com.dfsek.terra.bukkit.nms.v1_20_R1.NMSInjectListener] Successfully injected into world.
+[03:12:48] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[03:12:48] [Server thread/INFO]: Time elapsed: 211 ms
+[03:12:48] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[03:12:48] [Server thread/INFO]: Time elapsed: 96 ms
+[03:12:48] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[03:12:48] [Server thread/INFO]: Time elapsed: 65 ms
+[03:12:48] [Server thread/INFO]: [MTVehicles] Enabling MTVehicles v2.5.3
+[03:12:48] [Server thread/INFO]: [MTVehicles] Plugin has been loaded!
+[03:12:48] [Server thread/INFO]: [MTVehicles] --------------------------
+[03:12:48] [Server thread/INFO]: [MTVehicles] Welcome by MTVehicles v2.5.3!
+[03:12:48] [Server thread/INFO]: [MTVehicles] Thanks for using our plugin.
+[03:12:48] [Server thread/INFO]: [MTVehicles] --------------------------
+[03:12:49] [Server thread/INFO]: [MTVehicles] §7---------------------------------------
+[03:12:49] [Server thread/INFO]: [MTVehicles] A new version of §2MTVehicles§f is available!
+[03:12:49] [Server thread/INFO]: [MTVehicles] We have already released §av2.5.4 §fbut you are still using §cv2.5.3§f!
+[03:12:49] [Server thread/INFO]: [MTVehicles] Use §2/mtv update§f to update! (Don't forget to reload the plugin!)
+[03:12:49] [Server thread/INFO]: [MTVehicles] For more information visit §nhttps://mtvehicles.eu§f!
+[03:12:49] [Server thread/INFO]: [MTVehicles] §7---------------------------------------
+[03:12:49] [Server thread/INFO]: [FastChunkPregenerator] Enabling FastChunkPregenerator v2.0.9-SNAPSHOT
+[03:12:50] [Server thread/INFO]: [FastChunkPregenerator] >> Paper was found.
+[03:12:50] [Server thread/INFO]: [FastChunkPregenerator] >> Async chunk loading support is enabled.
+[03:12:50] [Server thread/INFO]: [Revive] Enabling Revive v3.2 | 1.20
+[03:12:50] [Server thread/INFO]: Running delayed init tasks
+[03:12:50] [Server thread/INFO]: Done (13.414s)! For help, type "help"
+[03:12:50] [Server thread/INFO]: Timings Reset
+[03:18:13] [User Authenticator #0/INFO]: UUID of player Sir_Ju4ncitox is 74ce4e69-0f13-31d5-996a-c10c6c5b9e07
+[03:18:14] [Server thread/INFO]: Sir_Ju4ncitox joined the game
+[03:18:14] [Server thread/INFO]: Sir_Ju4ncitox[/127.193.241.115:43787] logged in with entity id 115 at ([world]-422.34053822547924, 78.0, 155.0847076467421)
