@@ -160,3 +160,7 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 [03:18:13] [User Authenticator #0/INFO]: UUID of player Sir_Ju4ncitox is 74ce4e69-0f13-31d5-996a-c10c6c5b9e07
 [03:18:14] [Server thread/INFO]: Sir_Ju4ncitox joined the game
 [03:18:14] [Server thread/INFO]: Sir_Ju4ncitox[/127.193.241.115:43787] logged in with entity id 115 at ([world]-422.34053822547924, 78.0, 155.0847076467421)
+[03:27:33] [Server thread/INFO]: Sir_Ju4ncitox has made the advancement [Sweet Dreams]
+[03:28:04] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Spigot: v1_20_R1! Trying to find NMS support
+[03:28:04] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_20_R1' loaded!
+[03:28:04] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'MTVehicles' to create a bStats instance!
